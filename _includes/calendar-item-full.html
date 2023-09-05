@@ -1,0 +1,68 @@
+<style>
+    .fullodd { background-color: #e9ecef;}
+    .item-title { background-color: #613970; color: white; }
+</style>
+
+<div class="row border-bottom fullodd">
+    <div class="justify-content-center align-items-center text-center ">
+        <br>
+        <h2 id="{{evento.evento-fmt}}" class="item-title"><strong>{{evento.evento}}</strong></h2>
+        <div class="row justify-content-center align-items-center text-center">
+            {% if evento.abertura.data %}
+            <div class="col-10 col-sm-4"> <!-- abertura -->
+                {% if evento.abertura.data and evento.fechamento.data %}
+                <h3 class=""><strong>Início:</strong></h3>
+                {% endif %}
+                <h1 class="display-4"><span class="badge" style="background-color: #613970;">{{ evento.abertura.data | date: "%d" }}</span></h1>
+                <h2 style="color: #613970;">{{ evento.abertura.nome-do-mes | upcase }}</h2>
+                <ul class="list-inline">
+                    {% if evento.abertura.dia-da-semana %}
+                    <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i>
+                        {{ evento.abertura.dia-da-semana }}
+                    </li>
+                    {% endif %}
+                    {% if evento.abertura.horario %}
+                    <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                        {{ evento.abertura.horario }}                 
+                    </li>
+                    {% endif %}
+                    {% if evento.local-realizacao %}
+                    <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                        {{ evento.local-realizacao }}
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+            {% endif %}
+            {% if evento.fechamento.data %}
+            <div class="col-10 col-sm-4"> <!-- prazo final -->
+                {% if evento.abertura.data and evento.fechamento.data %}
+                <h3 class=""><strong>Término:</strong></h3>
+                {% endif %}
+                <h1 class="display-4"><span class="badge" style="background-color: #613970;">{{ evento.fechamento.data | date: "%d" }}</span></h1>
+                <h2 style="color: #613970;">{{ evento.fechamento.nome-do-mes | upcase }}</h2>
+                <ul class="list-inline">
+                    {% if evento.fechamento.dia-da-semana %}
+                    <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i>
+                        {{ evento.fechamento.dia-da-semana }}
+                    </li>
+                    {% endif %}
+                    {% if evento.fechamento.horario %}
+                    <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                        {{ evento.fechamento.horario }}                 
+                    </li>
+                    {% endif %}
+                    {% if evento.local-realizacao %}
+                    <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                        {{ evento.local-realizacao }}
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+            {% endif %}
+        </div><br>
+        <div class="container col-12 col-md-6 text-justify">
+            <p>{{ evento.descricao | markdownify }}</p>
+        </div>
+    </div>
+</div>

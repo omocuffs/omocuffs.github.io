@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<style>
+    h1 {color:#613970; font-weight: bold; text-align: center;}
+    h4 {color:#613970; font-weight: bold;}
+    .ancor-link {color: #613970; padding: 5px;}
+    .ancor-link:hover {border-radius: 3px; color: #fff; background-color: #613970;  text-decoration: none;}
+    .ancor-link-title { padding: 7px; background-color: #613970; color: #fff;}
+</style>
+
+<div class="container-xxl" >
+    <br><br>
+    <div class="row ">
+      <div class="col-lg-2 text-left ">
+            <div class="sticky-top" style="top:50px;">
+                <p class="ancor-link-title"><strong>Índice da Página:</strong></p>
+                <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-3 border-end ">
+                    <nav class="nav nav-underline flex-column">
+                    <a class="ms-2 ancor-link" href="#sobre"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Sobre a OMOC</a>
+                    <a class="ms-2 ancor-link" href="#objetivos"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Objetivos</a>
+                    <a class="ms-2 ancor-link" href="#niveis"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Níveis de Participação</a>
+                    <a class="ms-2 ancor-link" href="#criterios"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Critérios de Classificação</a>
+                    </nav>
+                </nav>
+                <br><br><br>
+            </div>
+        </div>
+        <div class="col-lg-10 text-justify">
+            {{ content }} 
+        </div>
+      </div>
+    </div>
+</div>

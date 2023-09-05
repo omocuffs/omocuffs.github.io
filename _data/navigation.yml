@@ -1,0 +1,39 @@
+- perma-title: "inicio"
+  fmt-title: "Início"
+  excerpt: "Informações gerais sobre a OMOC"
+  url: "/"
+
+- perma-title: "sobre-omoc"
+  fmt-title: "Sobre a OMOC"
+  excerpt: "Informações gerais sobre a OMOC"
+  url: "/sobre-a-omoc/"
+
+- perma-title: "calendario"
+  fmt-title: "OMOC 2023"
+  excerpt: "Informações gerais sobre a OMOC"
+  url: "/edicao-atual-omoc/"
+
+- perma-title: "organizacao"
+  fmt-title: "Organização"
+  excerpt: "Informações gerais sobre a OMOC"
+  url: "/organizacao/"
+
+- perma-title: "Provas"
+  fmt-title: "Provas"
+  excerpt: "Informações gerais sobre a OMOC"
+  url: "/provas/"
+
+- perma-title: "listas-de-treinamento"
+  fmt-title: "Listas de Treinamento"
+  excerpt: "Informações gerais sobre a OMOC"
+  url: "/listas-de-treinamento/"
+
+- perma-title: "medalhistas"
+  fmt-title: "Medalhistas"
+  excerpt: "Informações gerais sobre a OMOC"
+  url: "/medalhistas/"
+
+- perma-title: "edicoes-anteriores"
+  fmt-title: "Edições Anteriores"
+  excerpt: "Informações gerais sobre a OMOC"
+  url: "/edicoes-anteriores/"

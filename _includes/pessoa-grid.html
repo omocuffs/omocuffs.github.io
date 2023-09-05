@@ -1,0 +1,54 @@
+<div class="row" >
+    <div class="col-12 col-sm-2 text-center" >
+        <img src="{{ site.url }}/images/pessoas/{{ pessoa.imagem }}" class="img-thumbnail" style="background-color:  #613970"  width="250" height="250">
+    </div>
+    <div class="col-12 col-sm-10">
+        <div class="row">
+            <strong><p style="color: #613970">{{ pessoa.nome }} - {{ pessoa.posicao }}</p></strong>
+        </div>
+        <div class="row">
+            <p class="text-justify">
+            {% if pessoa.bio %}
+                {{ pessoa.bio }}
+            {% endif %} 
+            {% if pessoa.bio-academica %}
+                {{ pessoa.bio-academica }}
+            {% endif %} 
+            </p>
+        </div>
+        <div class="row text-right">
+            <ul class="list-inline">
+                {% if pessoa.email %}
+                <li class="list-inline-item" style="color: #613970;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                        <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z"/>
+                    </svg>
+                    {{ pessoa.email }}
+                </li>
+                {% endif %}
+                {% if pessoa.lattes %}
+                <li class="list-inline-item">
+                    <a class="icon-link text-bold" href="{{ pessoa.lattes }}" style="color: #613970;"> 
+                    Lattes
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                    </svg>
+                    </a>
+                </li>
+                {% endif %}
+                {% if pessoa.google-scholar %}
+                <li class="list-inline-item">
+                    <a class="icon-link text-bold" href=" {{ pessoa.google-scholar }}" style="color: #613970;"> 
+                    Google Schoolar
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                    </svg>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>

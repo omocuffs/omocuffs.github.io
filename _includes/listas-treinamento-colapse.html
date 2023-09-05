@@ -1,0 +1,19 @@
+<style>
+    a {color:#613970;}
+    a:hover {color: #c6a9ff}
+</style>
+
+<div class="accordion-item">
+    <h2 class="accordion-header">
+    <button class="accordion-button collapsed"  style="background-color:#613970;color: #fff;" type="button" data-bs-toggle="collapse" data-bs-target="#{{lista.ano-edicao}}" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+        <strong> {{ lista.ano-edicao }} </strong>
+    </button>
+    </h2>
+    <div id="{{ lista.ano-edicao }}" class="accordion-collapse collapse {% if forloop.index == 1 %} show {% endif %}">
+        <div class="accordion-body">
+            <div class="container col-12 col-sm-12">
+                
+            </div>
+        </div>
+    </div>
+</div>
