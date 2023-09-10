@@ -36,31 +36,10 @@ permalink: /edicao-atual-omoc/
           <div class="text-center" id="sobre">
             <h1  style="color:#613970"><strong>Calendário da OMOC {{calendario-atual.ano-edicao}}</strong></h1> <br>
             <p >
-                &nbsp;&nbsp;&nbsp;&nbsp;Para eventuais dúvidas, visite as <strong>informações de <a style="color: #613970;" href="/#contato">CONTATO</a></strong> na <strong>aba: <a style="color: #613970;" href="/">Organização</a></strong>
+                &nbsp;&nbsp;&nbsp;&nbsp;Para eventuais dúvidas, visite as <strong>informações de CONTATO</strong> na <strong>aba: <a style="color: #613970;" href="/organizacao/">Organização</a></strong>
             </p>
           </div>
-            <h2>Níveis de Participação:</h2>
-            &nbsp;&nbsp;&nbsp;
-            A Olimpíada de Matemática do Oeste Catarinense (OMOC) é realizada anualmente em níveis, de acordo com a escolaridade do aluno: 
-                {% if edicao-atual.niveis-de-participacao %}
-                <div class="container col-12 col-sm-8">
-                    <br>
-                    <dl class="row">
-                        <hr/>
-                        {% for nivel in edicao-atual.niveis-de-participacao %}
-                        <dt class="col-sm-3">{{ nivel.nivel | markdownify }}</dt>
-                        <dd class="col-sm-9">
-                        {{ nivel.descricao | markdownify }}
-                        </dd>
-                        <hr/>
-                        {% endfor %}
-                    </dl>  
-                </div>
-                {% endif %}
-            <div id="criterios"></div>
-            <h2>Critérios de classificação para a segunda fase:</h2>
-            <p>Os alunos que atingirem no mínimo 60 pontos serão classificados para a segunda fase</p>
-            <p><strong>OBS: ​As provas da primeira fase devem ser corrigidas pelo professor responsável pela olimpíada na escola.</strong></p>
+
             <!-- Calendario -->
             {% for evento in calendario-atual.eventos %}
                 {% include calendar-item-full.html %}

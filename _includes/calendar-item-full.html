@@ -17,17 +17,17 @@
                 <h2 style="color: #613970;">{{ evento.abertura.nome-do-mes | upcase }}</h2>
                 <ul class="list-inline">
                     {% if evento.abertura.dia-da-semana %}
-                    <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    <li class="list-inline-item">{{site.data.icons.calendario}}
                         {{ evento.abertura.dia-da-semana }}
                     </li>
                     {% endif %}
                     {% if evento.abertura.horario %}
-                    <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <li class="list-inline-item">{{site.data.icons.relogio}}
                         {{ evento.abertura.horario }}                 
                     </li>
                     {% endif %}
                     {% if evento.local-realizacao %}
-                    <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                    <li class="list-inline-item">{{site.data.icons.localizacao}}
                         {{ evento.local-realizacao }}
                     </li>
                     {% endif %}
@@ -43,17 +43,17 @@
                 <h2 style="color: #613970;">{{ evento.fechamento.nome-do-mes | upcase }}</h2>
                 <ul class="list-inline">
                     {% if evento.fechamento.dia-da-semana %}
-                    <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    <li class="list-inline-item">{{site.data.icons.calendario}}
                         {{ evento.fechamento.dia-da-semana }}
                     </li>
                     {% endif %}
                     {% if evento.fechamento.horario %}
-                    <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <li class="list-inline-item">{{site.data.icons.relogio}}
                         {{ evento.fechamento.horario }}                 
                     </li>
                     {% endif %}
                     {% if evento.local-realizacao %}
-                    <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                    <li class="list-inline-item">{{site.data.icons.localizacao}}
                         {{ evento.local-realizacao }}
                     </li>
                     {% endif %}

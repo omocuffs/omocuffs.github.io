@@ -5,6 +5,7 @@ description: "Realização da Universidade Federal da Fronteira Sul, Chapecó, S
 nav-logo: /common/omoc-nav-icon-width-140.png
 root-path: /
 url: https://omoc.uffs.edu.br
+
 # Jekyll configuration
 permalink: pretty
 defaults:
