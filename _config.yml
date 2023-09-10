@@ -1,17 +1,13 @@
 # Site wide configuration
 
-title: "Ciência da Computação"
-description: "Curso de Ciência da Computação da Universidade Federal da Fronteira Sul, Chapecó, SC, Brasil."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+title: "Olimpíada de Matemática do Oeste Catarinense"
+description: "Realização da Universidade Federal da Fronteira Sul, Chapecó, SC, Brasil."
 nav-logo: /common/omoc-nav-icon-width-140.png
 root-path: /
-uffs-endereco:
-
+url: https://omoc.uffs.edu.br
 # Jekyll configuration
 permalink: pretty
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
