@@ -1,0 +1,65 @@
+<style>
+    a {color:#613970;}
+    a:hover { color: #c6a9ff; text-decoration: none; }
+    .fullodd { background-color: #e9ecef; }
+    .main-text-style { font-weight: bold; color: #613970; }
+    .main-text-color { color: #613970; }
+</style>
+
+<div class="accordion-item">
+    <h2 class="accordion-header">
+    <button class="accordion-button collapsed"  style="background-color:#613970;color: #fff;" type="button" data-bs-toggle="collapse" data-bs-target="#{{ include.ano-edicao }}" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+        <h1><strong> {{ include.ano-edicao }} </strong></h1>
+    </button>
+    </h2>
+    <div id="{{ include.ano-edicao }}" class="accordion-collapse collapse {% if forloop.index == 1 %} show {% endif %}">
+        <div class="accordion-body col-12 col-sm-12">
+            <div class="container col-12 col-sm-12">
+                {% for fase in include.fases %}
+                    <h2 class="main-text-style" style="margin-top: 5px;">{{ fase.fase }}</h2>
+                    <hr style="border-top: 2px dashed #613970;">
+                    {% for nivel in fase.niveis %}
+                        <h4 style="margin-top: 5px; " class="text-center main-text-style">{{ nivel.nivel }}</h4>
+                        <div class="row ">
+                            <div class="col-12 col-sm-6 text-center" style="border-bottom: 2px solid #613970;" >
+                                <dt class=""><h6 class="fw-bold main-text-color">Documentos</h6></dt>
+                            </div>
+                            <div class="col-12 col-sm-6 text-center" style="border-left: 2px solid #613970; border-bottom: 2px solid #613970;">
+                                <dt class="" ><h6 class="fw-bold main-text-color">Gabaritos</h6></dt>
+                            </div>
+                        </div>
+                        {% for documento in nivel.documentos %}
+                            <!-- assign an alternating color pattern -->
+                            {% assign color = forloop.index | modulo: 2 %} {%if forloop.index == 1 %} {%endif%}
+                            <div class="row {%if color == 1%} fullodd {%endif%}">
+                            <!-- /assign an alternating color pattern -->
+                                <div class="col-12 col-sm-6 text-center">
+                                    {% if documento.titulo and documento.link %}
+                                    <dt class=""><h6 class="fw-bold" style="margin-top: 5px;">{{documento.titulo}}</h6></dt>
+                                    <dd class="">
+                                        <a href="{{documento.link}}" target="_blank">
+                                            {{ site.data.icons.pdf-document }} Download
+                                        </a>
+                                    </dd>
+                                    {%endif%}
+                                </div>
+                                <div class="col-12 col-sm-6 text-center" style="border-left: 2px solid #613970;">
+                                    {% for gabdoc in documento.solucoes %}
+                                        {% if gabdoc.gab-titulo and gabdoc.gab-link %}
+                                        <dt class="" ><h6 class="fw-bold" style="margin-top: 5px;">{{gabdoc.gab-titulo}}</h6></dt>
+                                        <dd class="">
+                                            <a href="{{gabdoc.gab-link}}" target="_blank">
+                                                {{ site.data.icons.pdf-document }} Download
+                                            </a>
+                                        </dd>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

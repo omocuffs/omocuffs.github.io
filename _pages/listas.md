@@ -8,9 +8,9 @@ permalink: /listas-de-treinamento/
     <br><br>
     <h1 class="text-center" style="color:#613970"><strong>Listas de treinamento anteriores:</strong></h1> <br>
     <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
-    {% assign listas = site.data.listas-treinamento | sort: "ano-edicao" | reverse %}
-    {% for prova in listas %}
-            {% include prova-colapse.html %}
+    {% assign info = site.data.omoc-edicoes | sort: "edicao" | reverse %}
+    {% for edicao in info %}
+        {% include accordion-content.html ano-edicao=edicao.edicao fases=edicao.lista-de-treinamento.fases %}
     {% endfor %}
     </div>
 </div>

@@ -8,9 +8,9 @@ permalink: /provas/
     <br><br>
     <h1 class="text-center" style="color:#613970"><strong>Provas Anteriores:</strong></h1> <br>
     <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
-    {% assign provas = site.data.provas | sort: "ano-edicao" | reverse %}
-    {% for prova in provas %}
-            {% include prova-colapse.html %}
+    {% assign info = site.data.omoc-edicoes | sort: "edicao" | reverse %}
+    {% for edicao in info %}
+        {% include accordion-content.html ano-edicao=edicao.edicao fases=edicao.prova.fases %}
     {% endfor %}
     </div>
 </div>
