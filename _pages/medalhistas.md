@@ -8,9 +8,11 @@ permalink: /medalhistas/
     <br><br>
     <h1 class="text-center" style="color:#613970"><strong>Alunos e Escolas medalhistas:</strong></h1> <br>
     <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
-    {% assign medalhistas = site.data.medalhistas | sort: "ano-edicao" | reverse %}
-    {% for medalhista in medalhistas %}
-            {% include medalhista-colapse.html %}
+    
+    {% assign edicoes = site.data.omoc-edicoes | sort: "edicao" | reverse %}
+    
+    {% for edicao in edicoes %}
+            {% include med-accordion-content.html ano-edicao=edicao.edicao documentos=edicao.premiados.documentos %}
     {% endfor %}
     </div>
 </div>

@@ -10,7 +10,7 @@ permalink: /provas/
     <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
     {% assign info = site.data.omoc-edicoes | sort: "edicao" | reverse %}
     {% for edicao in info %}
-        {% include accordion-content.html ano-edicao=edicao.edicao fases=edicao.prova.fases %}
+        {% include test_list-accordion-content.html ano-edicao=edicao.edicao fases=edicao.prova.fases %}
     {% endfor %}
     </div>
 </div>

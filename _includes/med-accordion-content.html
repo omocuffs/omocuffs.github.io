@@ -1,0 +1,25 @@
+<style>
+    a {color:#613970;}
+    a:hover { color: #c6a9ff; text-decoration: none; }
+    .fullodd { background-color: #e9ecef; }
+    .main-text-style { font-weight: bold; color: #613970; }
+    .main-text-color { color: #613970; }
+    .main-margin-style { margin-top: 5px; margin-bottom: 5px; }
+    .r-border { border-right: 2px solid #613970; }
+</style>
+
+<div class="row">
+    <div class="col-12 col-sm-6 text-right main-margin-style r-border" style="bottom: 6px;">
+        <h1 class="main-text-style">{{ include.ano-edicao }}</h1>
+    </div>
+    <div class="col-12 col-sm-6 text-left main-margin-style" >
+        {% for documento in include.documentos %}
+        <dd>
+        <a href="{{documento.link}}" target="_blank">
+            {{ site.data.icons.pdf-document }}
+            {{ documento.titulo }}
+        </a>
+        </dd>
+        {% endfor %}
+    </div>
+</div>
