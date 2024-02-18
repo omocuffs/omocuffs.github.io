@@ -1,9 +1,9 @@
-# ---------------------- INICIO CALENDARIO ----------------------
+# ---------------------- INICIO EDICAO ----------------------
 - ano-edicao: "2023"
   eventos:
     - evento: "Inscrições Prova OMOC"
       evento-fmt: "inscricoes-fase-i"
-      descricao: "&nbsp;&nbsp;&nbsp;&nbsp;As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
+      descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
       local-realizacao: "Online"
       abertura:
         data: 
@@ -19,9 +19,9 @@
     - evento: "Inscrições para treinamento"
       evento-fmt: "inscricoes-treinamento"
       descricao: "
-      &nbsp;&nbsp;&nbsp;&nbsp;Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
-      &nbsp;&nbsp;&nbsp;&nbsp;Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
-      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\n&nbsp;&nbsp;&nbsp;&nbsp;Os materiais para treinamento de 
+      Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
+      Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
+      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\nOs materiais para treinamento de 
       edições antigas também são disponibilizados no site da Olimpíada:
       "
       local-realizacao: "Email"
@@ -77,12 +77,575 @@
     - evento: "Premiação"
       evento-fmt: "premiacao"
       descricao: "
-      &nbsp;&nbsp;&nbsp;&nbsp;A cerimônia de premiação será realizada no dia **02/12/2023 (sábado)** 
+      A cerimônia de premiação será realizada no dia **02/12/2023 (sábado)** 
       nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
       "
       local-realizacao: "UFFS"
       abertura:
         data: "02-12-2023"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Dezembro"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+# ---------------------- FIM EDICAO ----------------------
+# ---------------------- INICIO EDICAO ----------------------
+- ano-edicao: "2022"
+  eventos:
+    - evento: "Inscrições Prova OMOC"
+      evento-fmt: "inscricoes-fase-i"
+      descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
+      local-realizacao: "Online"
+      abertura:
+        data: 
+        dia-da-semana:
+        nome-do-mes: 
+        horario: 
+      fechamento:
+        data: "24-04-2022"
+        dia-da-semana: "Segunda-Feira"
+        nome-do-mes: "Abril"
+        horario: "23:59"
+
+    - evento: "Inscrições para treinamento"
+      evento-fmt: "inscricoes-treinamento"
+      descricao: "
+      Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
+      Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
+      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\nOs materiais para treinamento de 
+      edições antigas também são disponibilizados no site da Olimpíada:
+      "
+      local-realizacao: "Email"
+      abertura:
+        data: "25-04-2022"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Abril"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase I"
+      evento-fmt: "fase-i"
+      descricao: "
+      - **Modalidade:** Presencial nas escolas inscritas\n
+      - **Composição da prova:** 10 questões objetivas, cada uma valendo 10 pontos.\n
+      - **Duração da prova:** 2 horas\n
+      "
+      local-realizacao: "Sua Escola."
+      abertura:
+        data: "29-08-2022"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Agosto"
+        horario: "A ser definido pela escola."
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase II"
+      evento-fmt: "fase-ii"
+      descricao: "
+      - **Modalidade:** Presencial na Universidade Federal da Fronteira Sul - UFFS, campus Chapecó - SC.\n
+      - **Composição da prova:** 05 questões discursivas compostas de problemas, cada uma valendo 20 pontos.\n
+      - **Duração da prova:** 3 horas\n
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "21-10-2022"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Outubro"
+        horario: "14:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Premiação"
+      evento-fmt: "premiacao"
+      descricao: "
+      A cerimônia de premiação será realizada no dia **02/12/2022 (sábado)** 
+      nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "02-12-2022"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Dezembro"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+# ---------------------- INICIO EDICAO ----------------------
+- ano-edicao: "2021"
+  eventos:
+    - evento: "Inscrições Prova OMOC"
+      evento-fmt: "inscricoes-fase-i"
+      descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
+      local-realizacao: "Online"
+      abertura:
+        data: 
+        dia-da-semana:
+        nome-do-mes: 
+        horario: 
+      fechamento:
+        data: "24-04-2021"
+        dia-da-semana: "Segunda-Feira"
+        nome-do-mes: "Abril"
+        horario: "23:59"
+
+    - evento: "Inscrições para treinamento"
+      evento-fmt: "inscricoes-treinamento"
+      descricao: "
+      Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
+      Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
+      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\nOs materiais para treinamento de 
+      edições antigas também são disponibilizados no site da Olimpíada:
+      "
+      local-realizacao: "Email"
+      abertura:
+        data: "25-04-2021"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Abril"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase I"
+      evento-fmt: "fase-i"
+      descricao: "
+      - **Modalidade:** Presencial nas escolas inscritas\n
+      - **Composição da prova:** 10 questões objetivas, cada uma valendo 10 pontos.\n
+      - **Duração da prova:** 2 horas\n
+      "
+      local-realizacao: "Sua Escola."
+      abertura:
+        data: "29-08-2021"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Agosto"
+        horario: "A ser definido pela escola."
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase II"
+      evento-fmt: "fase-ii"
+      descricao: "
+      - **Modalidade:** Presencial na Universidade Federal da Fronteira Sul - UFFS, campus Chapecó - SC.\n
+      - **Composição da prova:** 05 questões discursivas compostas de problemas, cada uma valendo 20 pontos.\n
+      - **Duração da prova:** 3 horas\n
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "21-10-2021"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Outubro"
+        horario: "14:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Premiação"
+      evento-fmt: "premiacao"
+      descricao: "
+      A cerimônia de premiação será realizada no dia **02/12/2021 (sábado)** 
+      nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "02-12-2021"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Dezembro"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+# ---------------------- FIM EDICAO ----------------------
+# ---------------------- INICIO EDICAO ----------------------
+- ano-edicao: "2020"
+  eventos:
+    - evento: "Inscrições Prova OMOC"
+      evento-fmt: "inscricoes-fase-i"
+      descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
+      local-realizacao: "Online"
+      abertura:
+        data: 
+        dia-da-semana:
+        nome-do-mes: 
+        horario: 
+      fechamento:
+        data: "24-04-2020"
+        dia-da-semana: "Segunda-Feira"
+        nome-do-mes: "Abril"
+        horario: "23:59"
+
+    - evento: "Inscrições para treinamento"
+      evento-fmt: "inscricoes-treinamento"
+      descricao: "
+      Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
+      Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
+      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\nOs materiais para treinamento de 
+      edições antigas também são disponibilizados no site da Olimpíada:
+      "
+      local-realizacao: "Email"
+      abertura:
+        data: "25-04-2020"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Abril"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase I"
+      evento-fmt: "fase-i"
+      descricao: "
+      - **Modalidade:** Presencial nas escolas inscritas\n
+      - **Composição da prova:** 10 questões objetivas, cada uma valendo 10 pontos.\n
+      - **Duração da prova:** 2 horas\n
+      "
+      local-realizacao: "Sua Escola."
+      abertura:
+        data: "29-08-2020"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Agosto"
+        horario: "A ser definido pela escola."
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase II"
+      evento-fmt: "fase-ii"
+      descricao: "
+      - **Modalidade:** Presencial na Universidade Federal da Fronteira Sul - UFFS, campus Chapecó - SC.\n
+      - **Composição da prova:** 05 questões discursivas compostas de problemas, cada uma valendo 20 pontos.\n
+      - **Duração da prova:** 3 horas\n
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "21-10-2020"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Outubro"
+        horario: "14:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Premiação"
+      evento-fmt: "premiacao"
+      descricao: "
+      A cerimônia de premiação será realizada no dia **02/12/2020 (sábado)** 
+      nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "02-12-2020"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Dezembro"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+# ---------------------- FIM EDICAO ----------------------
+# ---------------------- INICIO EDICAO ----------------------
+- ano-edicao: "2019"
+  eventos:
+    - evento: "Inscrições Prova OMOC"
+      evento-fmt: "inscricoes-fase-i"
+      descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
+      local-realizacao: "Online"
+      abertura:
+        data: 
+        dia-da-semana:
+        nome-do-mes: 
+        horario: 
+      fechamento:
+        data: "24-04-2019"
+        dia-da-semana: "Segunda-Feira"
+        nome-do-mes: "Abril"
+        horario: "23:59"
+
+    - evento: "Inscrições para treinamento"
+      evento-fmt: "inscricoes-treinamento"
+      descricao: "
+      Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
+      Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
+      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\nOs materiais para treinamento de 
+      edições antigas também são disponibilizados no site da Olimpíada:
+      "
+      local-realizacao: "Email"
+      abertura:
+        data: "25-04-2019"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Abril"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase I"
+      evento-fmt: "fase-i"
+      descricao: "
+      - **Modalidade:** Presencial nas escolas inscritas\n
+      - **Composição da prova:** 10 questões objetivas, cada uma valendo 10 pontos.\n
+      - **Duração da prova:** 2 horas\n
+      "
+      local-realizacao: "Sua Escola."
+      abertura:
+        data: "29-08-2019"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Agosto"
+        horario: "A ser definido pela escola."
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase II"
+      evento-fmt: "fase-ii"
+      descricao: "
+      - **Modalidade:** Presencial na Universidade Federal da Fronteira Sul - UFFS, campus Chapecó - SC.\n
+      - **Composição da prova:** 05 questões discursivas compostas de problemas, cada uma valendo 20 pontos.\n
+      - **Duração da prova:** 3 horas\n
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "21-10-2019"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Outubro"
+        horario: "14:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Premiação"
+      evento-fmt: "premiacao"
+      descricao: "
+      A cerimônia de premiação será realizada no dia **02/12/2019 (sábado)** 
+      nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "02-12-2019"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Dezembro"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+# ---------------------- FIM EDICAO ----------------------
+# ---------------------- INICIO EDICAO ----------------------
+- ano-edicao: "2018"
+  eventos:
+    - evento: "Inscrições Prova OMOC"
+      evento-fmt: "inscricoes-fase-i"
+      descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
+      local-realizacao: "Online"
+      abertura:
+        data: 
+        dia-da-semana:
+        nome-do-mes: 
+        horario: 
+      fechamento:
+        data: "24-04-2018"
+        dia-da-semana: "Segunda-Feira"
+        nome-do-mes: "Abril"
+        horario: "23:59"
+
+    - evento: "Inscrições para treinamento"
+      evento-fmt: "inscricoes-treinamento"
+      descricao: "
+      Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
+      Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
+      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\nOs materiais para treinamento de 
+      edições antigas também são disponibilizados no site da Olimpíada:
+      "
+      local-realizacao: "Email"
+      abertura:
+        data: "25-04-2018"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Abril"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase I"
+      evento-fmt: "fase-i"
+      descricao: "
+      - **Modalidade:** Presencial nas escolas inscritas\n
+      - **Composição da prova:** 10 questões objetivas, cada uma valendo 10 pontos.\n
+      - **Duração da prova:** 2 horas\n
+      "
+      local-realizacao: "Sua Escola."
+      abertura:
+        data: "29-08-2018"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Agosto"
+        horario: "A ser definido pela escola."
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase II"
+      evento-fmt: "fase-ii"
+      descricao: "
+      - **Modalidade:** Presencial na Universidade Federal da Fronteira Sul - UFFS, campus Chapecó - SC.\n
+      - **Composição da prova:** 05 questões discursivas compostas de problemas, cada uma valendo 20 pontos.\n
+      - **Duração da prova:** 3 horas\n
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "21-10-2018"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Outubro"
+        horario: "14:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Premiação"
+      evento-fmt: "premiacao"
+      descricao: "
+      A cerimônia de premiação será realizada no dia **02/12/2018 (sábado)** 
+      nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "02-12-2018"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Dezembro"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+# ---------------------- FIM EDICAO ----------------------
+# ---------------------- INICIO EDICAO ----------------------
+- ano-edicao: "2017"
+  eventos:
+    - evento: "Inscrições Prova OMOC"
+      evento-fmt: "inscricoes-fase-i"
+      descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
+      local-realizacao: "Online"
+      abertura:
+        data: 
+        dia-da-semana:
+        nome-do-mes: 
+        horario: 
+      fechamento:
+        data: "24-04-2017"
+        dia-da-semana: "Segunda-Feira"
+        nome-do-mes: "Abril"
+        horario: "23:59"
+
+    - evento: "Inscrições para treinamento"
+      evento-fmt: "inscricoes-treinamento"
+      descricao: "
+      Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
+      Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
+      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\nOs materiais para treinamento de 
+      edições antigas também são disponibilizados no site da Olimpíada:
+      "
+      local-realizacao: "Email"
+      abertura:
+        data: "25-04-2017"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Abril"
+        horario:
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase I"
+      evento-fmt: "fase-i"
+      descricao: "
+      - **Modalidade:** Presencial nas escolas inscritas\n
+      - **Composição da prova:** 10 questões objetivas, cada uma valendo 10 pontos.\n
+      - **Duração da prova:** 2 horas\n
+      "
+      local-realizacao: "Sua Escola."
+      abertura:
+        data: "29-08-2017"
+        dia-da-semana: "Terça-Feira"
+        nome-do-mes: "Agosto"
+        horario: "A ser definido pela escola."
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase II"
+      evento-fmt: "fase-ii"
+      descricao: "
+      - **Modalidade:** Presencial na Universidade Federal da Fronteira Sul - UFFS, campus Chapecó - SC.\n
+      - **Composição da prova:** 05 questões discursivas compostas de problemas, cada uma valendo 20 pontos.\n
+      - **Duração da prova:** 3 horas\n
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "21-10-2017"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Outubro"
+        horario: "14:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Premiação"
+      evento-fmt: "premiacao"
+      descricao: "
+      A cerimônia de premiação será realizada no dia **02/12/2017 (sábado)** 
+      nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "02-12-2017"
         dia-da-semana: "Sábado"
         nome-do-mes: "Dezembro"
         horario:

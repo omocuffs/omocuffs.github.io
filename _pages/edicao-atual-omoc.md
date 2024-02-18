@@ -39,7 +39,6 @@ permalink: /edicao-atual-omoc/
                 &nbsp;&nbsp;&nbsp;&nbsp;Para eventuais dúvidas, visite as <strong>informações de CONTATO</strong> na <strong>aba: <a style="color: #613970;" href="/organizacao/">Organização</a></strong>
             </p>
           </div>
-
             <!-- Calendario -->
             {% for evento in calendario-atual.eventos %}
                 {% include calendar-item-full.html %}

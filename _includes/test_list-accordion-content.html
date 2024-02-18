@@ -33,24 +33,22 @@
                             {% assign color = forloop.index | modulo: 2 %} {%if forloop.index == 1 %} {%endif%}
                             <div class="row {%if color == 1%} fullodd {%endif%}">
                             <!-- /assign an alternating color pattern -->
-                                <div class="col-12 col-sm-6 text-center">
+                                <div class="col-12 col-sm-6 text-left">
                                     {% if documento.titulo and documento.link %}
-                                    <dt class=""><h6 class="fw-bold" style="margin-top: 5px;">{{documento.titulo}}</h6></dt>
                                     <dd class="">
-                                        <a href="{{documento.link}}" target="_blank">
-                                            {{ site.data.icons.pdf-document }} Download
+                                        <a href="{{documento.link}}" target="_blank" style=" text-decoration: underline; ">
+                                           <h6 class="fw-bold" style="margin-top: 20px;"> {{ site.data.icons.pdf-document }}  {{documento.titulo}}</h6>
                                         </a>
                                     </dd>
                                     {%endif%}
                                 </div>
-                                <div class="col-12 col-sm-6 text-center" style="border-left: 2px solid #613970;">
+                                <div class="col-12 col-sm-6 text-left" style="border-left: 2px solid #613970;">
                                     {% for gabdoc in documento.solucoes %}
                                         {% if gabdoc.gab-titulo and gabdoc.gab-link %}
-                                        <dt class="" ><h6 class="fw-bold" style="margin-top: 5px;">{{gabdoc.gab-titulo}}</h6></dt>
                                         <dd class="">
-                                            <a href="{{gabdoc.gab-link}}" target="_blank">
-                                                {{ site.data.icons.pdf-document }} Download
-                                            </a>
+                                            <a href="{{gabdoc.gab-link}}" target="_blank" style=" text-decoration: underline; ">
+                                                <h6 class="fw-bold" style="margin-top: 20px;"> {{ site.data.icons.pdf-document }} {{gabdoc.gab-titulo}}</h6>
+                                             </a>
                                         </dd>
                                         {% endif %}
                                     {% endfor %}

@@ -3,72 +3,72 @@ layout: default
 --- 
 
 {% assign ano = page.date |  date: "%Y" %}
-{% assign edicao = site.data.edicoes-omoc | where: "edicao", ano | first %}
+{% assign edicao-info = site.data.edicoes-omoc | where: "edicao", ano | first %}
+{% assign edicao-midia = site.data.edicoes-midia | where: "edicao", ano | first %}
 {% assign calendario = site.data.calendario | where: "ano-edicao", ano | first %}
 
 <style>
     h1 {color:#613970; font-weight: bold; text-align: center;}
     h2 {color: #613970; font-weight: bold;}
+    h4 {color: #613970; font-weight: bold;}
     .ancor-link {color: #613970; padding: 5px;}
     .ancor-link:hover {border-radius: 3px; color: #fff; background-color: #613970;  text-decoration: none;}
     .ancor-link-title { padding: 7px; background-color: #613970; color: #fff;}
     .badge { background-color: #613970; color: #fff;}
+
+    .fullscreen{
+      width: 100%;
+      height: 100%;
+    }
 </style>
+
+<script>
+function makeItFullscreen(id){
+    document.getElementById(id).classList.add('fullscreen');
+}
+</script>
 
 <div class="container-xxl" >
     <br><br>
     <div class="row ">
       <div class="col-lg-2 text-left ">
             <div class="sticky-top" style="top:50px;">
-                <p class="ancor-link-title"><strong>Índice da Página:</strong></p>
+                <p class="ancor-link-title"><strong>Índice da Página: {{edicao-info.numero}}</strong></p>
                 <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-3 border-end ">
                     <nav class="nav nav-underline flex-column">
-                    {% if edicao.banner-imagem %}
+                    {% if edicao-info.banner-imagem %}
                     <a class="ms-2 ancor-link" href="#edbanner"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Banner da edição</a>
                     {% endif %}
-                    {% if edicao.pasta-drive-imagens %}
-                    <a class="ms-2 ancor-link" href="#edimagens"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Imagens da edição</a>
-                    {% endif %}
-                    {% if edicao.niveis-de-participacao %}
+                    {% if edicao-info.niveis-de-participacao %}
                     <a class="ms-2 ancor-link" href="#nvparticipacao"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Níveis de participação</a>
                     {% endif %}
                     <a class="ms-2 ancor-link" href="#calendario"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Calendário</a>
-                    <a class="ms-2 ancor-link" href="#minfo"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Mais informações</a>
+                    {% if edicao-midia.imagens %}
+                    <a class="ms-2 ancor-link" href="#imagens"><i class="fa-solid fa-circle align-middle" style="font-size: 7px; "></i> Imagens da edição</a>
+                    {% endif %}
                     </nav>
                 </nav>
                 <br><br><br>
             </div>
         </div>
         <div class="col-lg-10 text-justify">
-            <h1><span class="badge">{{ edicao.numero }}</span> Edição da OMOC: {{ edicao.edicao }}</h1>
-
+            <h1><span class="badge">{{ edicao-info.numero }}</span> Edição da OMOC: {{ edicao-info.edicao }}</h1>
             <!-- banner imagem edicao -->
-            <!-- <div class="d-none d-md-block mt-5"> -->
-            {% if edicao.banner-imagem %}
+            {% if edicao-info.banner-imagem %}
             <div class="mt-5" id="edbanner">
-                <img class="img-fluid" src="{{site.url}}/images/edicoes/{{edicao.edicao}}/{{edicao.banner-imagem}}" alt="{{ edicao.banner-imagem }}">
-            </div>
-            <hr>
-            {% endif %}            
-            <!-- pasta drive com imagens -->
-            {% if edicao.pasta-drive-imagens %}
-            <div id="edimagens">
-                <h2>Imagens:</h2>
-                <div class="text-center">
-                    <a style="color: #613970;" href="{{ edicao.pasta-drive-imagens }}" target="_blank">{{site.data.icons.drive}} Imagens da Cerimônia de Premiação</a>
-                </div>
+                <img class="img-fluid" src="{{site.url}}/images/edicoes/{{edicao-info.edicao}}/{{edicao-info.banner-imagem}}" alt="{{ edicao-info.banner-imagem }}">
             </div>
             <hr/>
             {% endif %}            
             <!-- niveis de participacao -->
-            {% if edicao.niveis-de-participacao %}
+            {% if edicao-info.niveis-de-participacao %}
             <div class="mt-3" id="nvparticipacao">
                 <h2>Níveis de Participação:</h2>
                 <div class="container col-12 col-sm-8">
                     <br>
                     <dl class="row">
                         <hr/>
-                        {% for nivel in edicao.niveis-de-participacao %}
+                        {% for nivel in edicao-info.niveis-de-participacao %}
                         <dt class="col-sm-3">{{ nivel.nivel | markdownify }}</dt>
                         <dd class="col-sm-9">
                         {{ nivel.descricao | markdownify }}
@@ -78,9 +78,10 @@ layout: default
                     </dl>  
                 </div>
             </div>
-            <hr>
+            <hr/>
             {% endif %}
             <!-- informacoes de calendario -->
+            {% if calendario %}
             <div id="calendario">
                 <h2>Datas da edição:</h2>
                 <div class="container col-12 col-sm-12">
@@ -103,18 +104,18 @@ layout: default
                         <p>
                             De:
                             <strong  style="color:#613970;">
-                            {{site.data.icons.calendario}} {{dataev.dia-da-semana}}, {{ dataev.data | date: "%d"}} de {{dataev.nome-do-mes}} de {{edicao.edicao}}
+                            {{site.data.icons.calendario}} {{dataev.dia-da-semana}}, {{ dataev.data | date: "%d"}} de {{dataev.nome-do-mes}} de {{edicao-info.edicao}}
                             </strong>
                             Até:
                             <strong  style="color:#613970;">
-                            {{site.data.icons.calendario}} {{evento.fechamento.dia-da-semana}}, {{ evento.fechamento.data | date: "%d"}} de {{evento.fechamento.nome-do-mes}} de {{edicao.edicao}} 
+                            {{site.data.icons.calendario}} {{evento.fechamento.dia-da-semana}}, {{ evento.fechamento.data | date: "%d"}} de {{evento.fechamento.nome-do-mes}} de {{edicao-info.edicao}} 
                             </strong>
                             | {{site.data.icons.localizacao}} {{ evento.local-realizacao }}
                         </p>
                         {% else %}
                         <p>
                             <strong style="color:#613970;">
-                            {{site.data.icons.calendario}} {{dataev.dia-da-semana}}, {{ dataev.data | date: "%d"}} de {{dataev.nome-do-mes}} de {{edicao.edicao}}
+                            {{site.data.icons.calendario}} {{dataev.dia-da-semana}}, {{ dataev.data | date: "%d"}} de {{dataev.nome-do-mes}} de {{edicao-info.edicao}}
                             </strong> | {{site.data.icons.localizacao}} {{ evento.local-realizacao }} 
                         </p>
                         {% endif %}
@@ -128,30 +129,18 @@ layout: default
                 </div>
             </div>
             <hr/>
-            <!-- Mais informações -->
-            <div id="minfo">
-                <h2>Clique para saber mais sobre...</h2>
-                <style>
-                    .ulink {color: #613970;text-decoration: underline;}
-                </style>
-                <div class="container col-12 col-sm-6 mt-5">
-                    <a class="ulink" href="{{site.url}}{{site.data.navigation[6].url}}">Alunos e Escolas medalhistas</a>
-                    <hr>
-                    <a class="ulink" href="{{site.url}}{{site.data.navigation[5].url}}">Listas de Treinamento</a>
-                    <hr>
-                    <a class="ulink" href="{{site.url}}{{site.data.navigation[4].url}}">Provas</a>
-                </div>
+            {% endif %}
+            <!-- imagens da edicao-->
+            {% if edicao-midia.imagens %}
+            <div id="imagens" class="container text-center">
+                <h2>Imagens da edição: </h2>
+                <h4>(clique para ampliar)</h4>
+                {% for image in edicao-midia.imagens %}
+                    <img id="{{image.imagem}}" onclick="makeItFullscreen(this.id)" class="rounded" src="{{image.imagem}}w1920" alt="" width="400"/>
+                {% endfor %}
             </div>
             <hr/>
-            <!-- listas de treinamento -->
-            <div id="treinamento">
-                
-            </div>
-            <hr/>
-            <!-- provas -->
-            <div id="provas">
-
-            </div>
+            {% endif %}
         </div>
       </div>
     </div>

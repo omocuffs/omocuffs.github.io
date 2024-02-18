@@ -2,10 +2,141 @@
   numero: "VI"
   banner-imagem: "yt-banner-omoc.png"
   banner-imagem-mobile: "banner-inicio-mobile.png"
-  pasta-drive-imagens: 
   oficio-circular-inscricoes: "oficio_carta_convite_1_.pdf"
   formulario-inscricoes: "https://forms.gle/grzWrUkCQB8gBuNH6"
   formulario-inscricoes-treinamento: "www.google.com"
+  niveis-de-participacao:
+    - nivel: "Nível I"
+      descricao: "
+      Para estudantes que estejam matriculados no **6º ou 7º ano** do Ensino Fundamental quando da realização da prova da OMOC.
+      "
+    - nivel: "Nível II"
+      descricao: "
+      Para estudantes matriculados no **8º ou 9º ano** do Ensino Fundamental quando da realização da prova da OMOC. 
+      "
+    - nivel: "Nível III"
+      descricao: "
+      Para estudantes matriculados em qualquer ano do ensino médio quando da realização da prova da OMOC ou que, 
+      tendo concluído o **ensino médio** menos de um ano antes, não tenham ingressado em curso de nível superior até 
+      a data da realização da prova da OMOC. 
+      "
+- edicao: "2022"
+  numero: "V"
+  banner-imagem: 
+  banner-imagem-mobile: 
+  oficio-circular-inscricoes: 
+  formulario-inscricoes: 
+  formulario-inscricoes-treinamento: 
+  niveis-de-participacao:
+    - nivel: "Nível I"
+      descricao: "
+      Para estudantes que estejam matriculados no **6º ou 7º ano** do Ensino Fundamental quando da realização da prova da OMOC.
+      "
+    - nivel: "Nível II"
+      descricao: "
+      Para estudantes matriculados no **8º ou 9º ano** do Ensino Fundamental quando da realização da prova da OMOC. 
+      "
+    - nivel: "Nível III"
+      descricao: "
+      Para estudantes matriculados em qualquer ano do ensino médio quando da realização da prova da OMOC ou que, 
+      tendo concluído o **ensino médio** menos de um ano antes, não tenham ingressado em curso de nível superior até 
+      a data da realização da prova da OMOC. 
+      "
+- edicao: "2021"
+  numero: "V"
+  banner-imagem: 
+  banner-imagem-mobile: 
+  oficio-circular-inscricoes: 
+  formulario-inscricoes: 
+  formulario-inscricoes-treinamento: 
+  niveis-de-participacao:
+    - nivel: "Nível I"
+      descricao: "
+      Para estudantes que estejam matriculados no **6º ou 7º ano** do Ensino Fundamental quando da realização da prova da OMOC.
+      "
+    - nivel: "Nível II"
+      descricao: "
+      Para estudantes matriculados no **8º ou 9º ano** do Ensino Fundamental quando da realização da prova da OMOC. 
+      "
+    - nivel: "Nível III"
+      descricao: "
+      Para estudantes matriculados em qualquer ano do ensino médio quando da realização da prova da OMOC ou que, 
+      tendo concluído o **ensino médio** menos de um ano antes, não tenham ingressado em curso de nível superior até 
+      a data da realização da prova da OMOC. 
+      "
+- edicao: "2020"
+  numero: "IV"
+  banner-imagem: 
+  banner-imagem-mobile: 
+  oficio-circular-inscricoes: 
+  formulario-inscricoes: 
+  formulario-inscricoes-treinamento: 
+  niveis-de-participacao:
+    - nivel: "Nível I"
+      descricao: "
+      Para estudantes que estejam matriculados no **6º ou 7º ano** do Ensino Fundamental quando da realização da prova da OMOC.
+      "
+    - nivel: "Nível II"
+      descricao: "
+      Para estudantes matriculados no **8º ou 9º ano** do Ensino Fundamental quando da realização da prova da OMOC. 
+      "
+    - nivel: "Nível III"
+      descricao: "
+      Para estudantes matriculados em qualquer ano do ensino médio quando da realização da prova da OMOC ou que, 
+      tendo concluído o **ensino médio** menos de um ano antes, não tenham ingressado em curso de nível superior até 
+      a data da realização da prova da OMOC. 
+      "
+- edicao: "2019"
+  numero: "III"
+  banner-imagem: 
+  banner-imagem-mobile: 
+  oficio-circular-inscricoes: 
+  formulario-inscricoes: 
+  formulario-inscricoes-treinamento: 
+  niveis-de-participacao:
+    - nivel: "Nível I"
+      descricao: "
+      Para estudantes que estejam matriculados no **6º ou 7º ano** do Ensino Fundamental quando da realização da prova da OMOC.
+      "
+    - nivel: "Nível II"
+      descricao: "
+      Para estudantes matriculados no **8º ou 9º ano** do Ensino Fundamental quando da realização da prova da OMOC. 
+      "
+    - nivel: "Nível III"
+      descricao: "
+      Para estudantes matriculados em qualquer ano do ensino médio quando da realização da prova da OMOC ou que, 
+      tendo concluído o **ensino médio** menos de um ano antes, não tenham ingressado em curso de nível superior até 
+      a data da realização da prova da OMOC. 
+      "
+- edicao: "2018"
+  numero: "II"
+  banner-imagem: 
+  banner-imagem-mobile: 
+  oficio-circular-inscricoes: 
+  formulario-inscricoes: 
+  formulario-inscricoes-treinamento: 
+  niveis-de-participacao:
+    - nivel: "Nível I"
+      descricao: "
+      Para estudantes que estejam matriculados no **6º ou 7º ano** do Ensino Fundamental quando da realização da prova da OMOC.
+      "
+    - nivel: "Nível II"
+      descricao: "
+      Para estudantes matriculados no **8º ou 9º ano** do Ensino Fundamental quando da realização da prova da OMOC. 
+      "
+    - nivel: "Nível III"
+      descricao: "
+      Para estudantes matriculados em qualquer ano do ensino médio quando da realização da prova da OMOC ou que, 
+      tendo concluído o **ensino médio** menos de um ano antes, não tenham ingressado em curso de nível superior até 
+      a data da realização da prova da OMOC. 
+      "
+- edicao: "2017"
+  numero: "I"
+  banner-imagem: 
+  banner-imagem-mobile: 
+  oficio-circular-inscricoes: 
+  formulario-inscricoes: 
+  formulario-inscricoes-treinamento: 
   niveis-de-participacao:
     - nivel: "Nível I"
       descricao: "
