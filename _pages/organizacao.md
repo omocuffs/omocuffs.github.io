@@ -1,19 +1,19 @@
 ---
-layout: default
+layout: "default"
 title: "Organização da OMOC"
 permalink: /organizacao/
 ---
 <div class="container-xxl"  data-bs-smooth-scroll="true" >
     <br><br>
     <h1 class="text-center" style="color:#613970"><strong>Organização da Olimpíada de Matemática do Oeste Catarinense</strong></h1> <br>
-    <div class="container col-12 col-sm-6 text-center">
+    <div class="container col-10 col-sm-6 text-center">
         <p>
         Para quaisquer <strong>dúvidas</strong> e <strong>esclarecimentos</strong>, entre em contato conosco:
         </p>
         <dl class="row text-left">
         {% if site.data.contato.email %}
         <dt class="col-sm-1"><i class="fa-solid fa-envelope"></i> </dt>
-            <dd class="col-sm-11">
+            <dd class="col-sm-5">
             {{ site.data.contato.email }}
             </dd>
             <hr/>
@@ -23,7 +23,7 @@ permalink: /organizacao/
         {% for telefone in site.data.contato.telefones %}
             {% if telefone.numero %}
             {% if forloop.index > 1%} <dt class="col-sm-1"></dt> {%endif%}
-            <dd class="col-sm-11">
+            <dd class="col-sm-5">
             {{ telefone.numero }}, com {{ telefone.responsavel }}
             </dd>
             {% endif %}
@@ -32,7 +32,7 @@ permalink: /organizacao/
         {% endif %}
         {% if site.data.contato.endereco %}
         <dt class="col-sm-1">{{ site.data.icons.localizacao }} </dt>
-            <dd class="col-sm-11">
+            <dd class="col-sm-5">
                 {{ site.data.contato.endereco.uni }}<br>
                 {{ site.data.contato.endereco.responsavel }}<br>
                 {{ site.data.contato.endereco.campus }}<br>

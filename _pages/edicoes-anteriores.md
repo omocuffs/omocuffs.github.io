@@ -17,7 +17,7 @@ permalink: "/edicoes-anteriores/"
     <h1 class="text-center" style="color:#613970;"><strong>Saiba mais sobre uma Edição OMOC!</strong></h1>
     <h3 class="text-center" style="color:#613970; font-weight: bold;">(níveis, calendário, imagens)</h3>
     <br>
-    <div class="d-grid gap-2 col-6 mx-auto">
+    <div class="d-grid gap-2 col-12 col-lg-6 mx-auto">
     {% for edicao in edicoes %}
       <a class="btn" href="{{site.url}}/edicao/{{edicao.edicao}}" style="background-color: #613970;"><h1>{{edicao.edicao}}</h1></a>
     {% endfor %}

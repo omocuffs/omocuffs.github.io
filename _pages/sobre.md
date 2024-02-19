@@ -1,5 +1,5 @@
 ---
-layout: sobre
+layout: "sobre"
 title: "Sobre a OMOC"
 permalink: /sobre-a-omoc/
 ---
@@ -34,13 +34,13 @@ A Olimpíada de Matemática do Oeste Catarinense (OMOC) é realizada anualmente 
 
 <section>
     {% if edicao-atual.niveis-de-participacao %}
-    <div class="container col-12 col-sm-8">
+    <div class="container col-10 col-sm-8">
         <br>
         <dl class="row">
             <hr/>
             {% for nivel in edicao-atual.niveis-de-participacao %}
-            <dt class="col-sm-3">{{ nivel.nivel | markdownify }}</dt>
-            <dd class="col-sm-9">
+            <dt class="col-10 col-sm-2">{{ nivel.nivel | markdownify }}</dt>
+            <dd class="col-10 col-sm-6">
             {{ nivel.descricao | markdownify }}
             </dd>
             <hr/>
