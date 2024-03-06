@@ -87,13 +87,9 @@ span {padding: 7px; border-radius: 3px;}
       </div>
       <!--card -->
       {% for evento in calendario-atual.eventos %}
-        {%if evento.abertura.data and evento.fechamento.data %}
-          {% assign dataev = evento.abertura %}
-        {% elsif evento.fechamento.data %}
-          {% unless evento.abertura.data %}
-            {% assign dataev = evento.fechamento %}
-          {% endunless %}
-        {% elsif evento.abertura.data %}
+        {%if evento.fechamento.data %}
+          {% assign dataev = evento.fechamento %}
+        {% else %}
             {% assign dataev = evento.abertura %}
         {%endif%}
       <div class="row border-bottom">
