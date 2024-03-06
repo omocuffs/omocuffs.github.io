@@ -1,6 +1,15 @@
 - edicao: "2024"
   lista-de-treinamento:
     fases:
+    - fase: "Primeira Fase"
+      niveis:
+      - nivel: "Nível I"
+        documentos:
+          - titulo: "Documento sem título"
+            link: "https://drive.google.com/file/d/1JtoInembNg-HBsWiGvu60Q2kkQv9l33bRCfgob2Qxno/preview"
+            solucoes:
+            - gab-titulo: 
+              gab-link: 
   imagens:
   premiados:
     documentos:
