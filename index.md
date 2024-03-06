@@ -56,12 +56,12 @@ span {padding: 7px; border-radius: 3px;}
               <div class="col-sm-12 col-12">
                 <p>O processo de inscrição das escolas para participar da {{edicao-atual.numero}} Olimpíada de Matemática do Oeste Catarinense já está aberto.</p>
                 <br>
-                <h5>Ofício Circular 001 / Olimpíada Regional de Matemática - UFFS / {{edicao-atual.edicao}}:</h5>
+                <h5>Carta convite / Olimpíada de Matemática do Oeste Catarinense - UFFS / {{edicao-atual.edicao}}:</h5>
                 <a class="link2" href="{{site.url}}/documents/inscricoes/{{edicao-atual.edicao}}/{{edicao-atual.oficio-circular-inscricoes}}" target="_blank">
                 {{site.data.icons.pdf-document}}
                 {{site.data.icons.download}} Fazer download (.pdf)</a>
                 <br><br>
-                <h5>Formulário de inscrição das escolas para 2023:</h5>
+                <h5>Formulário de inscrição das escolas para {{edicao-atual.edicao}}:</h5>
                 <a class="link2" href="{{edicao-atual.formulario-inscricoes}}" target="_blank">Formulário do Google</a>
               </div>
             </div>
