@@ -83,7 +83,7 @@ span {padding: 7px; border-radius: 3px;}
     </div>
     <div class="col border border-black text-center" >
       <div class="row border-bottom pt-3 pb-3" style="color: #fff; background-color: #613970;">
-        <h1><strong>Calendário 2023</strong></h1>
+        <h1><strong>Calendário 2024</strong></h1>
       </div>
       <!--card -->
       {% for evento in calendario-atual.eventos %}
