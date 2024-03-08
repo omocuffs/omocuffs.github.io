@@ -2,8 +2,6 @@
 layout: default
 title: "Inicial"
 permalink: /
-image:
-    banner: inicio/banner-inicio-omoc-2023.png
 ---
 {% assign edicoes = site.data.edicoes-omoc | sort: "edicao" | reverse %}
 {% assign edicao-atual = edicoes[0]%}
@@ -25,24 +23,21 @@ image:
 span {padding: 7px; border-radius: 3px;}
 .link2 {color:#613970;}
 .link2:hover {color: #c6a9ff; text-decoration: none;}
+
+.date-nums h1,.date-nums h4,.date-nums h5 {
+  display: inline;
+}
 </style>
 <section>
-<div class="container-fluid" >
-  {% if edicao-atual.banner-imagem %}
-  <div class="d-none d-md-block">
-    <img class="img-fluid" src="{{site.url}}/images/edicoes/{{edicao-atual.edicao}}/{{edicao-atual.banner-imagem}}" alt="{{edicao-atual.banner-imagem}}">
-  </div>
-  <div class="d-md-none">
-    <img class="img-fluid" src="{{site.url}}/images/edicoes/{{edicao-atual.edicao}}/{{edicao-atual.banner-imagem-mobile}}" alt="{{edicao-atual.banner-imagem-mobile}}">
-  </div>
-  {% else %}
-  <h2 class="display-4" ><span class="badge bg-light" style="color: #613970;" >OMOC</span></h2>
-  {% endif %}
-</div>
 <div class="container-xxl" data-bs-smooth-scroll="true" >
-  <br>
-  <div class="row g-3 " >
-    <h1 style="color: #613970;" class="text-center text-uppercase" ><strong>Olimpíada de Matemática do Oeste Catarinense (OMOC)</strong></h1>
+  <h1 style="visibility: hidden;">Olimpíada de Matemática do Oeste Catarinense</h1>
+  <div class="row g-3" >
+    <div class="d-none d-md-block text-center">
+      <img class="img-fluid" src="{{site.url}}/images/common/index-banner.png" alt="Banner OMOC" >
+    </div>
+    <div class="d-md-none">
+        <img class="img-fluid" src="{{site.url}}/images/common/index-banner-mobile.png" alt="Banner OMOC" >
+    </div>
     <br><br>
     <div class="col-lg-8" >
     <!-- inicio do acesso rapido -->
@@ -90,26 +85,55 @@ span {padding: 7px; border-radius: 3px;}
         {%if evento.fechamento.data %}
           {% assign dataev = evento.fechamento %}
         {% else %}
-            {% assign dataev = evento.abertura %}
+          {% assign dataev = evento.abertura %}
         {%endif%}
-      <div class="row border-bottom">
-        <div class="col-2 text-center" >
-          <h1 class="display-4"><span class="badge" style="background-color: #613970;">{{ dataev.data | date: "%d" }}</span></h1>
-          <h2 style="color: #613970;">&nbsp;{{ dataev.nome-do-mes | upcase | truncate: 3, ""}}</h2>
-        </div>
-        <div class="col-10 justify-content-center align-items-center">
-          <br>
+      <div class="row" style="border-bottom: 2px solid #613970;">
+        <div class="col-12 text-center date-nums" style="margin-top:5px;">
           <h3 class="text-uppercase"><strong>{{evento.evento}}</strong></h3>
-          <ul class="list-inline">
-            {% if dataev.dia-da-semana %}
-            <li class="list-inline-item">{{site.data.icons.calendario}}
-                {{ dataev.dia-da-semana | truncate: 3, ""}}
-            </li>
+          <span class="badge" style="background-color: #613970; ">
+            {% if evento.fechamento.data and evento.abertura.data %}
+              <h5> De: </h5>
+              <h1>{{evento.abertura.data | date: "%d" }}</h1> 
+              <h4>{{evento.abertura.data | date: "/%m" }}</h4>
+              <h5> Até: </h5>
+              <h1>{{evento.fechamento.data | date: "%d" }}</h1>
+              <h4>{{evento.abertura.data | date: "/%m" }}</h4>
+            {% elsif evento.abertura.data %}
+              <h5>A partir de: </h5>
+              <h1>{{evento.abertura.data | date: "%d" }}</h1> 
+              <h4>{{evento.abertura.data | date: "/%m" }}</h4>
+            {% else %}
+              <h5>Até: </h5>
+              <h1>{{evento.abertura.data | date: "%d" }}</h1> 
+              <h4>{{evento.abertura.data | date: "/%m" }}</h4>
             {% endif %}
-            {% if dataev.horario %}
-            <li class="list-inline-item">{{site.data.icons.relogio}}
-                {{ dataev.horario }}                 
-            </li>
+          </span>
+        </div>
+        <div class="col-12 justify-content-center align-items-center">
+          <ul class="list-inline">
+            {% if evento.fechamento.data and evento.abertura.data %}
+            {% elsif evento.abertura.data %}
+              {% if evento.abertura.dia-da-semana %}
+                <li class="list-inline-item">{{site.data.icons.calendario}}
+                    {{ evento.abertura.dia-da-semana | truncate: 3, ""}}
+                </li>
+              {% endif %}
+              {% if evento.abertura.horario %}
+                <li class="list-inline-item">{{site.data.icons.relogio}}
+                    {{ evento.abertura.horario }}                 
+                </li>
+              {% endif %}
+            {% else %}
+              {% if evento.fechamento.dia-da-semana %}
+                <li class="list-inline-item">{{site.data.icons.calendario}}
+                    {{ evento.fechamento.dia-da-semana | truncate: 3, ""}}
+                </li>
+              {% endif %}
+              {% if evento.fechamento.horario %}
+                <li class="list-inline-item">{{site.data.icons.relogio}}
+                    {{ evento.fechamento.horario }}                 
+                </li>
+              {% endif %}
             {% endif %}
             {% if evento.local-realizacao %}
             <li class="list-inline-item">{{site.data.icons.localizacao}}

@@ -13,7 +13,7 @@ permalink: /organizacao/
         <dl class="row text-left">
         {% if site.data.contato.email %}
         <dt class="col-sm-1"><i class="fa-solid fa-envelope"></i> </dt>
-            <dd class="col-sm-5">
+            <dd class="col-sm-8">
             {{ site.data.contato.email }}
             </dd>
             <hr/>
@@ -23,8 +23,8 @@ permalink: /organizacao/
         {% for telefone in site.data.contato.telefones %}
             {% if telefone.numero %}
             {% if forloop.index > 1%} <dt class="col-sm-1"></dt> {%endif%}
-            <dd class="col-sm-5">
-            {{ telefone.numero }}, com {{ telefone.responsavel }}
+            <dd class="col-sm-8">
+            {{ telefone.numero }}, falar com {{ telefone.responsavel }}
             </dd>
             {% endif %}
         {% endfor %}
@@ -32,7 +32,7 @@ permalink: /organizacao/
         {% endif %}
         {% if site.data.contato.endereco %}
         <dt class="col-sm-1">{{ site.data.icons.localizacao }} </dt>
-            <dd class="col-sm-5">
+            <dd class="col-sm-8">
                 {{ site.data.contato.endereco.uni }}<br>
                 {{ site.data.contato.endereco.responsavel }}<br>
                 {{ site.data.contato.endereco.campus }}<br>
