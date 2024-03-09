@@ -97,7 +97,7 @@ span {padding: 7px; border-radius: 3px;}
               <h4>{{evento.abertura.data | date: "/%m" }}</h4>
               <h5> Até: </h5>
               <h1>{{evento.fechamento.data | date: "%d" }}</h1>
-              <h4>{{evento.abertura.data | date: "/%m" }}</h4>
+              <h4>{{evento.fechamento.data | date: "/%m" }}</h4>
             {% else %}
               <h1>{{evento.abertura.data | date: "%d" }}</h1> 
               <h4>{{evento.abertura.data | date: "/%m" }}</h4>

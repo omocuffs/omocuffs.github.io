@@ -1,8 +1,8 @@
 # ---------------------- INICIO EDICAO ----------------------
 - ano-edicao: "2024"
   eventos:
-    - evento: "Inscrições Prova OMOC"
-      evento-fmt: "inscricoes-fase-i"
+    - evento: "Inscrições"
+      evento-fmt: "inscricoes"
       descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
       local-realizacao: "Online"
       abertura:
