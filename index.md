@@ -98,12 +98,7 @@ span {padding: 7px; border-radius: 3px;}
               <h5> Até: </h5>
               <h1>{{evento.fechamento.data | date: "%d" }}</h1>
               <h4>{{evento.abertura.data | date: "/%m" }}</h4>
-            {% elsif evento.abertura.data %}
-              <h5>Início: </h5>
-              <h1>{{evento.abertura.data | date: "%d" }}</h1> 
-              <h4>{{evento.abertura.data | date: "/%m" }}</h4>
             {% else %}
-              <h5>Término: </h5>
               <h1>{{evento.abertura.data | date: "%d" }}</h1> 
               <h4>{{evento.abertura.data | date: "/%m" }}</h4>
             {% endif %}
