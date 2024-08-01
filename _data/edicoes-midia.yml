@@ -1,3 +1,54 @@
+- edicao: "2024"
+  lista-de-treinamento:
+    fases:
+    - fase: "Primeira Fase"
+      niveis:
+      - nivel: "Nível III"
+        documentos:
+          - titulo: "Lista 1_Nível_III_2024.pdf"
+            link: "https://drive.google.com/file/d/1TTh-vrRMintGwrk645K4xv-y3KhYvYvN/preview"
+            solucoes:
+            - gab-titulo: "Lista 1_Nível_III_2024_Solução.pdf"
+              gab-link: "https://drive.google.com/file/d/1eWDqgaih7L1P-3ZVY0rhvAa0Crdc5ESF/preview"
+      - nivel: "Nível II"
+        documentos:
+          - titulo: "Lista 1_Nível_II_2024.pdf"
+            link: "https://drive.google.com/file/d/1YPy5pWzMEypzfdhMUlm-1GRXivqTU673/preview"
+            solucoes:
+            - gab-titulo: "Lista 1_Nível_II_2024_Solução.pdf"
+              gab-link: "https://drive.google.com/file/d/1Qk_dIKaBjXK8VEyP3jETBaUhmgIqkr1d/preview"
+          - titulo: "Lista 2_Nível_II_2024.pdf"
+            link: "https://drive.google.com/file/d/1uheb7xRbdzFwz321ylAp7RLQ0PdHbXRF/preview"
+            solucoes:
+            - gab-titulo: "Lista 2_Nível_II_2024_Solução.pdf"
+              gab-link: "https://drive.google.com/file/d/1LZdvRLRuC21pYpAMQ2ipgkHOwVDKxftH/preview"
+          - titulo: "Lista 3_Nível_II_2024.pdf"
+            link: "https://drive.google.com/file/d/1CdDlBOc155MAcVTkSf6_hjukKB6Ju_6n/preview"
+            solucoes:
+            - gab-titulo: "Lista 3_Nível_II_2024_Solução.pdf"
+              gab-link: "https://drive.google.com/file/d/1ixl7yl373cWbkd3FYgsH2_aiEymbLf6w/preview"
+      - nivel: "Nível I"
+        documentos:
+          - titulo: "Lista 1_Nível_I_2024.pdf"
+            link: "https://drive.google.com/file/d/1c5bhwdpvKyukuP0Sbsmek1_SOWZd4XeP/preview"
+            solucoes:
+            - gab-titulo: "Lista 1_Nível_I_2024_Soluções.pdf"
+              gab-link: "https://drive.google.com/file/d/1w0giz9xxC8SWSfwkHxq3xSTf8cmeDBwY/preview"
+          - titulo: "Lista 2_Nível_I_2024.pdf"
+            link: "https://drive.google.com/file/d/11IRqa5mT_or_kzH2qfgTafXbyY7khgIS/preview"
+            solucoes:
+            - gab-titulo: "Lista 2_Nível_I_2024_Soluções.pdf"
+              gab-link: "https://drive.google.com/file/d/14GqrEBIyg2nwYp5SmkRvV1O85aapBpnU/preview"
+          - titulo: "Lista 3_Nível_I_2024.pdf"
+            link: "https://drive.google.com/file/d/1RhheONFHgj4kjrdhU0ITraPROjhKgjbJ/preview"
+            solucoes:
+            - gab-titulo: "Lista 3_Nível_I_2024_Soluções.pdf"
+              gab-link: "https://drive.google.com/file/d/1yFI1QIYRKbe2Eu9NjUlbdTHw2YeXd44G/preview"
+  imagens:
+  premiados:
+    documentos:
+  prova:
+    fases:
 - edicao: "2023"
   premiados:
     documentos:
