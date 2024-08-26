@@ -61,48 +61,51 @@
       niveis:
       - nivel: "Nível III"
         documentos:
-            - gab-titulo: "PROVA OMOC- Nível III (2024)- Gabarito- VESPERTINO E NOTURNO.pdf"
-              gab-link: "https://drive.google.com/file/d/1sPh7TNjtQrvraXZzg-RBafZepOa3WE1h/preview"
           - titulo: "PROVA OMOC- Nível III (2024)- MATUTINO.pdf"
             link: "https://drive.google.com/file/d/1Vb0IMk0b1-Ld0sSO5-MRBFg4AVBM62Gn/preview"
             solucoes:
-            - gab-titulo: 
-              gab-link: 
+            - gab-titulo: "PROVA OMOC- Nível III (2024)- MATUTINO Gabarito.pdf"
+              gab-link: "https://drive.google.com/file/d/10Ph6Ej5tu7sJpzS0Sre7VwGeEAZgR8YM/preview"
+            - gab-titulo: "PROVA OMOC- Nível III (2024)- MATUTINO Soluções.pdf"
+              gab-link: "https://drive.google.com/file/d/1l6OAg6Xq2lzVLbj8trfbOemwh2qesxGG/preview"
           - titulo: "PROVA OMOC- Nível III (2024)- VESPERTINO E NOTURNO.pdf"
             link: "https://drive.google.com/file/d/1XtGZgT5qKzIME1_PnrjC4RPDE8FvlNOt/preview"
-            - gab-titulo: "PROVA OMOC- Nível III (2024)-Soluções- MATUTINO.pdf"
-              gab-link: "https://drive.google.com/file/d/1l6OAg6Xq2lzVLbj8trfbOemwh2qesxGG/preview"
-            - gab-titulo: "PROVA OMOC- Nível III (2024)-Soluções- VESPERTINO E NOTURNO.pdf"
+            solucoes:
+            - gab-titulo: "PROVA OMOC- Nível III (2024)- VESPERTINO E NOTURNO Gabarito.pdf"
+              gab-link: "https://drive.google.com/file/d/1sPh7TNjtQrvraXZzg-RBafZepOa3WE1h/preview"
+            - gab-titulo: "PROVA OMOC- Nível III (2024)- VESPERTINO E NOTURNO Soluções.pdf"
               gab-link: "https://drive.google.com/file/d/17hlYKKCs6d2XzvRu4LaSQTNqXvFJ9Eke/preview"
       - nivel: "Nível II"
         documentos:
-            - gab-titulo: "PROVA OMOC- Nível II (2024)- Gabarito- VESPERTINO.pdf"
-              gab-link: "https://drive.google.com/file/d/1QBo6SxQYDvjAqno1cIKX_QSJTHDo1J9T/preview"
-          - titulo: "PROVA OMOC- Nível II (2024)- MATUTINO.pdf"
+          - titulo: "PROVA OMOC- Nível II (2024)-MATUTINO.pdf"
             link: "https://drive.google.com/file/d/1TrIixZI-P0Ql9uR61qdaRM6WrCYNWBFC/preview"
             solucoes:
-            - gab-titulo: 
-              gab-link: 
-          - titulo: "PROVA OMOC- Nível II (2024)- VESPERTINO.pdf"
-            link: "https://drive.google.com/file/d/1Q0k9Jpa-f9yCwukIy6iEZtv81ZUJFw3G/preview"
-            - gab-titulo: "PROVA OMOC- Nível II (2024)-Soluções- MATUTINO.pdf"
+            - gab-titulo: "PROVA OMOC- Nível II (2024)-MATUTINO Gabarito.pdf"
+              gab-link: "https://drive.google.com/file/d/1aV3v7TKLYwARAmgnFjLKtPjBm14gDa0G/preview"
+            - gab-titulo: "PROVA OMOC- Nível II (2024)-MATUTINO Soluções.pdf"
               gab-link: "https://drive.google.com/file/d/18oN04eucX-Mtr4TrAsfS4mSW83gQ58wg/preview"
-            - gab-titulo: "PROVA OMOC- Nível II (2024)-Soluções- VESPERTINO.pdf"
+          - titulo: "PROVA OMOC- Nível II (2024)-VESPERTINO.pdf"
+            link: "https://drive.google.com/file/d/1Q0k9Jpa-f9yCwukIy6iEZtv81ZUJFw3G/preview"
+            solucoes:
+            - gab-titulo: "PROVA OMOC- Nível II (2024)-VESPERTINO Gabarito.pdf"
+              gab-link: "https://drive.google.com/file/d/1QBo6SxQYDvjAqno1cIKX_QSJTHDo1J9T/preview"
+            - gab-titulo: "PROVA OMOC- Nível II (2024)-VESPERTINO Soluções.pdf"
               gab-link: "https://drive.google.com/file/d/1OzOKVp6S8hCHpdYl3sb1Z5gSClGCRcEM/preview"
       - nivel: "Nível I"
         documentos:
-            - gab-titulo: "PROVA OMOC- Nível I (2024)- Gabarito- VESPERTINO.pdf"
-              gab-link: "https://drive.google.com/file/d/1C2co1THi44YHy7vftvyyHQUSg0ZAPZEY/preview"
           - titulo: "PROVA OMOC- Nível I (2024)- MATUTINO.pdf"
             link: "https://drive.google.com/file/d/1Lb3OUQuukIyfcJez5dW--_JTKLsa0wye/preview"
             solucoes:
-            - gab-titulo: 
-              gab-link: 
+            - gab-titulo: "PROVA OMOC- Nível I (2024)- MATUTINO Gabarito.pdf"
+              gab-link: "https://drive.google.com/file/d/1d_YpRy0bPpWDGWCoJY_Mc8DzfQqEGYj_/preview"
+            - gab-titulo: "PROVA OMOC- Nível I (2024)- MATUTINO Soluções.pdf"
+              gab-link: "https://drive.google.com/file/d/1ATLbpfetTOBOZIUupBjXYT58eZKz59PB/preview"
           - titulo: "PROVA OMOC- Nível I (2024)- VESPERTINO.pdf"
             link: "https://drive.google.com/file/d/1cMmM1IgCCniJbbjhAvVA-EfNl3nT--nh/preview"
-            - gab-titulo: "PROVA OMOC- Nível I (2024)-Soluções- MATUTINO.pdf"
-              gab-link: "https://drive.google.com/file/d/1ATLbpfetTOBOZIUupBjXYT58eZKz59PB/preview"
-            - gab-titulo: "PROVA OMOC- Nível I (2024)-Soluções- VESPERTINO.pdf"
+            solucoes:
+            - gab-titulo: "PROVA OMOC- Nível I (2024)- VESPERTINO Gabarito.pdf"
+              gab-link: "https://drive.google.com/file/d/1C2co1THi44YHy7vftvyyHQUSg0ZAPZEY/preview"
+            - gab-titulo: "PROVA OMOC- Nível I (2024)- VESPERTINO Soluções.pdf"
               gab-link: "https://drive.google.com/file/d/1b8GpYvZf53y39j5Pib4kZp_rXtnUtka6/preview"
 - edicao: "2023"
   premiados:
