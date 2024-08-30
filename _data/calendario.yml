@@ -77,14 +77,14 @@
     - evento: "Premiação"
       evento-fmt: "premiacao"
       descricao: "
-      A cerimônia de premiação será realizada no dia **07/12/2024 (sábado)** 
+      A cerimônia de premiação será realizada no dia **30/11/2024 (sábado)** 
       nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
       "
       local-realizacao: "UFFS"
       abertura:
-        data: "07-12-2024"
+        data: "30-11-2024"
         dia-da-semana: "Sábado"
-        nome-do-mes: "Dezembro"
+        nome-do-mes: "Novembro"
         horario: "14:00"
       fechamento:
         data:
