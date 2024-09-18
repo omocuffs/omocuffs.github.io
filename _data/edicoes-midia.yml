@@ -1,6 +1,29 @@
 - edicao: "2024"
   lista-de-treinamento:
     fases:
+    - fase: "Segunda Fase"
+      niveis:
+      - nivel: "Nível III"
+        documentos:
+          - titulo: "Lista 1_Nível_III_2024.pdf"
+            link: "https://drive.google.com/file/d/1szFCvJsA1sdDy65iVvzL7C3uInr7eIKB/preview"
+            solucoes:
+            - gab-titulo: "Lista 1_Nível_III_2024_Soluções.pdf"
+              gab-link: "https://drive.google.com/file/d/1Jfg7gJNLWAwIGwsYmoU1izzCm8Yr_jOz/preview"
+      - nivel: "Nível II"
+        documentos:
+          - titulo: "Lista 1_Nível_II_2024.pdf"
+            link: "https://drive.google.com/file/d/1o-n5uNxbe7tFlywwwYTBt8meoQEMoHwa/preview"
+            solucoes:
+            - gab-titulo: "Lista 1_Nível_II_2024_Soluções.pdf"
+              gab-link: "https://drive.google.com/file/d/15l5f5sMNL5lubA6ERauCCi_AWOoqxPrt/preview"
+      - nivel: "Nível I"
+        documentos:
+          - titulo: "Lista 1_Nível_I_2024.pdf"
+            link: "https://drive.google.com/file/d/1X9TbyjDEpDqiKBji8FVte6pFp-HZmhje/preview"
+            solucoes:
+            - gab-titulo: "Lista 1_Nível_I_2024_Soluções.pdf"
+              gab-link: "https://drive.google.com/file/d/1lLgIHAeKZb62mJCtA8-_fwhL5txbkBDL/preview"
     - fase: "Primeira Fase"
       niveis:
       - nivel: "Nível III"
