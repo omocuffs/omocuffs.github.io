@@ -56,6 +56,11 @@ span {padding: 7px; border-radius: 3px;}
                 {{site.data.icons.pdf-document}}
                 {{site.data.icons.download}} Fazer download (.pdf)</a>
                 <br><br>
+                <h5>Mudança de Horário / Olimpíada de Matemática do Oeste Catarinense - UFFS / {{edicao-atual.edicao}}:</h5>
+                <a class="link2" href="{{site.url}}/documents/inscricoes/{{edicao-atual.edicao}}/{{edicao-atual.oficio-003}}" target="_blank">
+                {{site.data.icons.pdf-document}}
+                {{site.data.icons.download}} Fazer download (.pdf)</a>
+                <br><br>
                 <h5>Formulário de inscrição das escolas para {{edicao-atual.edicao}}:</h5>
                 <a class="link2" href="{{edicao-atual.formulario-inscricoes}}" target="_blank">Formulário do Google</a>
               </div>
