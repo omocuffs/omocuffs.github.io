@@ -1,3 +1,25 @@
+- edicao: "2025"
+  numero: "VIII"
+  banner-imagem: "yt-banner-omoc.png"
+  banner-imagem-mobile: "banner-inicio-mobile.png"
+  oficio-circular-inscricoes: "oficio_carta_convite.pdf"
+  formulario-inscricoes: "https://forms.gle/2jbaqtbsgfqk7PYL8"
+  formulario-inscricoes-treinamento: "www.google.com"
+  niveis-de-participacao:
+    - nivel: "Nível I"
+      descricao: "
+      Para estudantes que estejam matriculados no **6º ou 7º ano** do Ensino Fundamental quando da realização da prova da OMOC.
+      "
+    - nivel: "Nível II"
+      descricao: "
+      Para estudantes matriculados no **8º ou 9º ano** do Ensino Fundamental quando da realização da prova da OMOC. 
+      "
+    - nivel: "Nível III"
+      descricao: "
+      Para estudantes matriculados em qualquer ano do ensino médio quando da realização da prova da OMOC ou que, 
+      tendo concluído o **ensino médio** menos de um ano antes, não tenham ingressado em curso de nível superior até 
+      a data da realização da prova da OMOC. 
+      "
 - edicao: "2024"
   numero: "VII"
   banner-imagem: "yt-banner-omoc.png"
