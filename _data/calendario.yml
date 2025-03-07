@@ -6,12 +6,12 @@
       descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
       local-realizacao: "Online"
       abertura:
-        data: "04-03-2025"
+        data: "11-03-2025"
         dia-da-semana: "Segunda-Feira"
         nome-do-mes: "Março"
         horario: "00:00"
       fechamento:
-        data: "12-04-2025"
+        data: "25-04-2025"
         dia-da-semana: "Sexta-Feira"
         nome-do-mes: "Abril"
         horario: "23:59"
@@ -26,8 +26,8 @@
       "
       local-realizacao: "Email"
       abertura:
-        data: "22-04-2025"
-        dia-da-semana: "Segunda-Feira"
+        data: "14-05-2025"
+        dia-da-semana: "Quarta-Feira"
         nome-do-mes: "Abril"
         horario: "00:00"
       fechamento:
@@ -45,8 +45,8 @@
       "
       local-realizacao: "Sua Escola."
       abertura:
-        data: "15-08-2025"
-        dia-da-semana: "Quinta-Feira"
+        data: "27-08-2025"
+        dia-da-semana: "Quarta-Feira"
         nome-do-mes: "Agosto"
         horario: "A ser definido pela escola."
       fechamento:
@@ -64,10 +64,10 @@
       "
       local-realizacao: "UFFS"
       abertura:
-        data: "26-10-2025"
+        data: "18-10-2025"
         dia-da-semana: "Sábado"
         nome-do-mes: "Outubro"
-        horario: "09:00"
+        horario: "14:00"
       fechamento:
         data:
         dia-da-semana:
@@ -80,7 +80,7 @@
       A cerimônia de premiação será realizada no dia **06/12/2025 (sábado)** 
       nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
       "
-      local-realizacao: "UFFS"
+      local-realizacao: "A definir"
       abertura:
         data: "06-12-2025"
         dia-da-semana: "Sábado"
