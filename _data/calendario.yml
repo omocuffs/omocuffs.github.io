@@ -1,4 +1,98 @@
 # ---------------------- INICIO EDICAO ----------------------
+- ano-edicao: "2025"
+  eventos:
+    - evento: "Inscrições"
+      evento-fmt: "inscricoes"
+      descricao: "As inscrições são feitas pelo site, por meio do formulário que se encontra na tela inicial."
+      local-realizacao: "Online"
+      abertura:
+        data: "11-03-2025"
+        dia-da-semana: "Segunda-Feira"
+        nome-do-mes: "Março"
+        horario: "00:00"
+      fechamento:
+        data: "25-04-2025"
+        dia-da-semana: "Sexta-Feira"
+        nome-do-mes: "Abril"
+        horario: "23:59"
+
+    - evento: "Inscrições para treinamento"
+      evento-fmt: "inscricoes-treinamento"
+      descricao: "
+      Serão ofertados treinamentos presenciais na **UFFS** e na modalidade remota (link e horários serão disponibilizados posteriormente). \n\n  
+      Os agendamentos para os treinamentos presenciais poderão ser feitos a partir desta data, através do e-mail: _omoc@uffs.edu.br_. 
+      **Os horários disponíveis para agendamento serão divulgados via ofício para as escolas inscritas**.\n\nOs materiais para treinamento de 
+      edições antigas também são disponibilizados no site da Olimpíada:
+      "
+      local-realizacao: "Email"
+      abertura:
+        data: "14-05-2025"
+        dia-da-semana: "Quarta-Feira"
+        nome-do-mes: "Abril"
+        horario: "00:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase I"
+      evento-fmt: "fase-i"
+      descricao: "
+      - **Modalidade:** Presencial nas escolas inscritas\n
+      - **Composição da prova:** 10 questões objetivas, cada uma valendo 10 pontos.\n
+      - **Duração da prova:** 2 horas\n
+      "
+      local-realizacao: "Sua Escola."
+      abertura:
+        data: "27-08-2025"
+        dia-da-semana: "Quarta-Feira"
+        nome-do-mes: "Agosto"
+        horario: "A ser definido pela escola."
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Fase II"
+      evento-fmt: "fase-ii"
+      descricao: "
+      - **Modalidade:** Presencial na Universidade Federal da Fronteira Sul - UFFS, campus Chapecó - SC.\n
+      - **Composição da prova:** 05 questões discursivas compostas de problemas, cada uma valendo 20 pontos.\n
+      - **Duração da prova:** 3 horas\n
+      "
+      local-realizacao: "UFFS"
+      abertura:
+        data: "18-10-2025"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Outubro"
+        horario: "14:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+
+    - evento: "Premiação"
+      evento-fmt: "premiacao"
+      descricao: "
+      A cerimônia de premiação será realizada no dia **06/12/2025 (sábado)** 
+      nas dependências da Universidade Federal da Fronteira Sul - **UFFS** - Campus Chapecó - SC.
+      "
+      local-realizacao: "A definir"
+      abertura:
+        data: "06-12-2025"
+        dia-da-semana: "Sábado"
+        nome-do-mes: "Dezembro"
+        horario: "14:00"
+      fechamento:
+        data:
+        dia-da-semana:
+        nome-do-mes:
+        horario:
+# ---------------------- FIM EDICAO ----------------------
+# ---------------------- INICIO EDICAO ----------------------
 - ano-edicao: "2024"
   eventos:
     - evento: "Inscrições"

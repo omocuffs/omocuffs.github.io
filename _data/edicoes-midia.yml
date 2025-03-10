@@ -1,3 +1,43 @@
+- edicao: "2025"
+  imagens:
+  prova:
+    fases:
+    - fase: "Segunda Fase"
+      niveis:
+      - nivel: "Nivel III"
+        documentos:
+      - nivel: "Nivel II"
+        documentos:
+      - nivel: "Nivel I"
+        documentos:
+    - fase: "Primeira Fase"
+      niveis:
+      - nivel: "Nivel III"
+        documentos:
+      - nivel: "Nivel II"
+        documentos:
+      - nivel: "Nivel I"
+        documentos:
+  premiados:
+    documentos:
+  lista-de-treinamento:
+    fases:
+    - fase: "Segunda Fase"
+      niveis:
+      - nivel: "Nivel III"
+        documentos:
+      - nivel: "Nivel II"
+        documentos:
+      - nivel: "Nivel I"
+        documentos:
+    - fase: "Primeira Fase"
+      niveis:
+      - nivel: "Nivel III"
+        documentos:
+      - nivel: "Nivel II"
+        documentos:
+      - nivel: "Nivel I"
+        documentos:
 - edicao: "2024"
   lista-de-treinamento:
     fases:
