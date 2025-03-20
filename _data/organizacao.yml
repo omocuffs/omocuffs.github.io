@@ -1,11 +1,22 @@
 # posições: coordenador, colaborador, bolsista, estagiario
 
-- nome: 
-  titulo: 
-  imagem: 
-  posicao: 
+- nome: Milton Kist
+  titulo: Coordenador
+  imagem: milton-omoc.jpeg
+  posicao: coordenador
   bio: 
   bio-academica: 
-  email:
+  email: milton.kist@uffs.edu.br
+  lattes: 
+  google-scholar: 
+
+
+- nome: Ketlyn Kutianski
+  titulo: Estagiária
+  imagem: ketlyn-omoc.jpeg
+  posicao: estagiario
+  bio: 
+  bio-academica: 
+  email: ketlyn.kutianski@estudante.uffs.edu.br
   lattes: 
   google-scholar: 
