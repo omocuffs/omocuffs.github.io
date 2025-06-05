@@ -2,11 +2,21 @@
 
 - nome: Milton Kist
   titulo: Coordenador
-  imagem: milton-omoc.jpeg
+  imagem: milton-omoc.jpg
   posicao: coordenador
   bio: 
   bio-academica: 
   email: milton.kist@uffs.edu.br
+  lattes: 
+  google-scholar: 
+
+- nome: Janice Reichert
+  titulo: Colaboradora
+  imagem: janice-omoc.jpg
+  posicao: colaborador
+  bio: 
+  bio-academica: 
+  email: janice.reichert@uffs.edu.br
   lattes: 
   google-scholar: 
 
@@ -18,5 +28,25 @@
   bio: 
   bio-academica: 
   email: ketlyn.kutianski@estudante.uffs.edu.br
+  lattes: 
+  google-scholar: 
+
+- nome: Anderson Valesan
+  titulo: Estagiário
+  imagem: anderson-omoc.jpeg
+  posicao: estagiario
+  bio: 
+  bio-academica: 
+  email: anderson.valesan@estudante.uffs.edu.br
+  lattes: 
+  google-scholar: 
+
+- nome: Peterson Luiz Reina
+  titulo: Bolsista
+  imagem: peterson-omoc.jpeg
+  posicao: bolsista
+  bio: 
+  bio-academica: 
+  email: peterson0work@gmail.com
   lattes: 
   google-scholar: 

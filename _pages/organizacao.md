@@ -55,18 +55,21 @@ permalink: /organizacao/
     {% for pessoa in pessoas %}
         {% include pessoa-grid.html %}
     {% endfor %}
+    <br>
     <h3 style="color:#613970">Colaboradores</h3>
     <hr>
     {% assign pessoas = site.data.organizacao | where:"posicao","colaborador" %}
     {% for pessoa in pessoas %}
         {% include pessoa-grid.html %}
     {% endfor %}
+    <br>
     <h3 style="color:#613970">Estagiários</h3>
     <hr>
     {% assign pessoas = site.data.organizacao | where:"posicao","estagiario" %}
     {% for pessoa in pessoas %}
         {% include pessoa-grid.html %}
     {% endfor %}
+    <br>
     <h3 style="color:#613970">Bolsistas</h3>
     <hr>
     {% assign pessoas = site.data.organizacao | where:"posicao","bolsista" %}
