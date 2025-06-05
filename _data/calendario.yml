@@ -11,9 +11,9 @@
         nome-do-mes: "Março"
         horario: "00:00"
       fechamento:
-        data: "25-04-2025"
+        data: "09-05-2025"
         dia-da-semana: "Sexta-Feira"
-        nome-do-mes: "Abril"
+        nome-do-mes: "Maio"
         horario: "23:59"
 
     - evento: "Inscrições para treinamento"
