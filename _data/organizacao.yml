@@ -5,9 +5,9 @@
   imagem: milton-omoc.jpg
   posicao: coordenador
   bio: 
-  bio-academica: 
+  bio-academica: "Possui graduação em Matemática pela Universidade Federal de Santa Catarina (1998), mestrado em Matemática e Computação Científica pela Universidade Federal de Santa Catarina (2001), especialização em Docência na Educação Superior pela Unochapecó (2007) e doutorado em Engenharia Mecânica e de Materiais pela Universidade Tecnológica Federal do Paraná (2016). Atualmente é professor Associado I na Universidade Federal da Fronteira Sul, atuando na graduação e na pós-graduação. Tem experiência em extensão e pesquisa na área de Ensino de Matemática: com ênfase em Educação Financeira; em Tecnologias Aplicadas ao Ensino, atuando nos seguintes temas: robótica educacional e pensamento computacional; e atua em Olimpíadas de Matemática, sendo coordenador da OMOC (Olimpíada de Matemática do Oeste Catarinense). "
   email: milton.kist@uffs.edu.br
-  lattes: 
+  lattes: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4767694P7
   google-scholar: 
 
 - nome: Janice Reichert
@@ -15,11 +15,20 @@
   imagem: janice-omoc.jpg
   posicao: colaborador
   bio: 
-  bio-academica: 
+  bio-academica: "Possui graduação em Matemática pela Universidade Federal de Santa Maria (1998), mestrado em Matemática e Computação Científica pela Universidade Federal de Santa Catarina (2001), doutorado em Engenharia Mecânica pela Universidade Federal do Rio Grande do Sul (2009) e realizou estágio pós-doutoral no Departamento de Informática Aplicada do Instituto de Informática da Universidade Federal do Rio Grande do Sul (2019). Atualmente é professora da Universidade Federal da Fronteira Sul - Campus Chapecó - SC. Tem experiência na área de Ensino da Matemática, com ênfase em Tecnologias Aplicadas ao Ensino, atuando nos seguintes temas: robótica educacional e Tecnologias Digitais na Educação Básica. Na área de Matemática Aplicada, atua principalmente nos seguintes temas: equações diferenciais parciais e soluções analíticas para a equação de transporte de radiação. Líder do grupo de pesquisa em Informática e Inovação na Educação (GPIIE). Atua com projetos de extensão e pesquisa voltados para a formação inicial e continuada de professores."
   email: janice.reichert@uffs.edu.br
-  lattes: 
+  lattes: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707525P7
   google-scholar: 
 
+- nome: Luiz Paulo Grafetti Terres
+  titulo: Colaborador
+  imagem: luiz-omoc.jpeg
+  posicao: colaborador
+  bio: 
+  bio-academica: 
+  email: 
+  lattes: 
+  google-scholar: 
 
 - nome: Ketlyn Kutianski
   titulo: Estagiária
@@ -36,9 +45,9 @@
   imagem: anderson-omoc.jpeg
   posicao: estagiario
   bio: 
-  bio-academica: 
+  bio-academica: "Graduado em Sistemas de Informação pela Universidade de São Paulo (USP), campus São Carlos. Atualmente, cursa Licenciatura em Matemática na Universidade Federal da Fronteira Sul (UFFS), campus Chapecó. Atua na área de educação matemática, integrando a equipe da Olimpíada de Matemática do Oeste Catarinense (OMOC), com interesse em ensino e divulgação matemática."
   email: anderson.valesan@estudante.uffs.edu.br
-  lattes: 
+  lattes: http://lattes.cnpq.br/9227066032496066
   google-scholar: 
 
 - nome: Peterson Luiz Reina
