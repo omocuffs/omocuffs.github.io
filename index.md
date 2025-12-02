@@ -94,13 +94,13 @@ span {padding: 7px; border-radius: 3px;}
             {% if evento.fechamento.data and evento.abertura.data %}
               <h5> De: </h5>
               <h1>{{evento.abertura.data | date: "%d" }}</h1> 
-              <h4>{{evento.abertura.data | date: "/%m" }}</h4>
+              <h4>{{evento.abertura.data | date: "/%m/%Y" }}</h4>
               <h5> Até: </h5>
               <h1>{{evento.fechamento.data | date: "%d" }}</h1>
-              <h4>{{evento.fechamento.data | date: "/%m" }}</h4>
+              <h4>{{evento.fechamento.data | date: "/%m/%Y" }}</h4>
             {% else %}
               <h1>{{evento.abertura.data | date: "%d" }}</h1> 
-              <h4>{{evento.abertura.data | date: "/%m" }}</h4>
+              <h4>{{evento.abertura.data | date: "/%m/%Y" }}</h4>
             {% endif %}
           </span>
         </div>
