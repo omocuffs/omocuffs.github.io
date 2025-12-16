@@ -43,7 +43,23 @@ span {padding: 7px; border-radius: 3px;}
     <!-- inicio do acesso rapido -->
       <h3 style="color: #613970;" class="text-left font-weight-bold" >Acesso rápido:</h3>
       <hr>
-      <div class="card">
+       <div class="card">
+        <h5 class="card-title" style="background-color: #613970; color:white;padding: 5px;">Fotos {{edicao-atual.numero}} OMOC</h5>
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-12">
+                <p>O link com as fotos está disponível abaixo.</p>
+                <br>
+                <a class="link2" href="{{edicao-atual.fotos-drive}}" target="_blank">
+                <h5>Fotos / Olimpíada de Matemática do Oeste Catarinense - UFFS / {{edicao-atual.edicao}}</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mt-2">
         <h5 class="card-title" style="background-color: #613970; color:white;padding: 5px;">Inscrições {{edicao-atual.edicao}}</h5>
         <div class="card-body">
           <div class="container">

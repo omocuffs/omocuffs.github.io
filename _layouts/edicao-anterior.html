@@ -141,7 +141,24 @@ function makeItFullscreen(id){
             </div>
             <hr/>
             {% endif %}
-        </div>
+            {% if edicao-info.fotos-drive %}
+            <div>
+                <h2>Fotos:</h2>
+                <div class="container col-12 col-sm-8">
+                    <dl class="row">
+                        <hr/>
+                        <dt class="col-sm-3">Link</dt>
+                        <dd class="col-sm-9">
+                            <a class="link2" href="{{edicao-info.fotos-drive}}" target="_blank">
+                                <h5>Fotos OMOC {{edicao-info.edicao}}</h5>
+                            </a>
+                        </dd>
+                        <hr/>
+                    </dl>
+                </div>
+            </div>
+            {% endif %}
+        </div>        
       </div>
     </div>
 </div>
