@@ -1,3 +1,34 @@
+- edicao: "2026"
+  lista-de-treinamento:
+    fases:
+    - fase: "Primeira Fase"
+      niveis:
+      - nivel: "Nivel III"
+        documentos:
+          - titulo: "Fase_1___L1_Nível_III_2026.pdf"
+            link: "https://drive.google.com/file/d/1DkBZAutP6dexi6d0l6LUHkXkMTpo5VYo/preview"
+            solucoes:
+            - gab-titulo: "Fase_1___L1_Nível_III_2026__Solução_.pdf"
+              gab-link: "https://drive.google.com/file/d/1JphDEk_ItNG4k4RkrubrgybuShWZV0LM/preview"
+      - nivel: "Nivel II"
+        documentos:
+          - titulo: "Fase_1___L1_Nível_II_2026.pdf"
+            link: "https://drive.google.com/file/d/1m23OHUP36lwCdmp39w54fFLiFuTy266R/preview"
+            solucoes:
+            - gab-titulo: "Fase_1___L1_Nível_II_2026__Solução_.pdf"
+              gab-link: "https://drive.google.com/file/d/19AD7HzGhjQ8n_PUOJakVkNKylbdZ8Dzw/preview"
+      - nivel: "Nivel I"
+        documentos:
+          - titulo: "Fase_1___L1_Nível_I_2026.pdf"
+            link: "https://drive.google.com/file/d/1-p01uOFW5LUwjB7w2_qj-QNqktWmINHa/preview"
+            solucoes:
+            - gab-titulo: "Fase_1___L1_Nível_I_2026__Solução_.pdf"
+              gab-link: "https://drive.google.com/file/d/1zNN5Xfpw8YZTRoElGNRsaAt7P78XWUFG/preview"
+  imagens:
+  premiados:
+    documentos:
+  prova:
+    fases:
 - edicao: "2025"
   imagens:
   prova:
