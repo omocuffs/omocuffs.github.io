@@ -29,6 +29,29 @@
     documentos:
   prova:
     fases:
+    - fase: "Primeira Fase"
+      niveis:
+      - nivel: "Nivel III"
+        documentos:
+          - titulo: "PROVA OMOC - Nível III (2026).pdf"
+            link: "https://drive.google.com/file/d/1qlgLNJ7sR9eQ07ArvUJKBEwXeSCljnWL/preview"
+            solucoes:
+            - gab-titulo: "PROVA OMOC - Nível III (2026) - Solução.pdf"
+              gab-link: "https://drive.google.com/file/d/1lpBMBVj-fRjura0ZJU1vHvKMEE8DOyyP/preview"
+      - nivel: "Nivel II"
+        documentos:
+          - titulo: "PROVA OMOC - Nível II (2026).pdf"
+            link: "https://drive.google.com/file/d/1A92KO_a482ri-YRym3TLO2NZVAgHmiDP/preview"
+            solucoes:
+            - gab-titulo: "PROVA OMOC - Nível II (2026) - Solução.pdf"
+              gab-link: "https://drive.google.com/file/d/14fC5tprEsLsPdTpKW1FS7l-zN7dc4iuV/preview"
+      - nivel: "Nivel I"
+        documentos:
+          - titulo: "PROVA OMOC - Nível I (2026).pdf"
+            link: "https://drive.google.com/file/d/1VDSWKxTItBxp6A3-ryUjH_j8kaOpYMHb/preview"
+            solucoes:
+            - gab-titulo: "PROVA OMOC - Nível I (2026) - Solução.pdf"
+              gab-link: "https://drive.google.com/file/d/1f1W_ovx9VsCZl6QWU1BAWMt4es-VDpg-/preview"
 - edicao: "2025"
   imagens:
   prova:
