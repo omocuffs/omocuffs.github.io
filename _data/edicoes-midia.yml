@@ -1,6 +1,29 @@
 - edicao: "2026"
   lista-de-treinamento:
     fases:
+    - fase: "Segunda Fase"
+      niveis:
+      - nivel: "Nivel III"
+        documentos:
+          - titulo: "Fase_2__L1_Nível_III_2026"
+            link: "https://drive.google.com/file/d/1TOzMg2XwtFXg_FwhdlQ0FIrABRtbGc2W/preview"
+            solucoes:
+            - gab-titulo: "Fase_2__L1_Nível_III_2026_Solução"
+              gab-link: "https://drive.google.com/file/d/1NsVB-0qDC0uRgVZgB5GwS8U2tTznA9rX/preview"
+      - nivel: "Nivel II"
+        documentos:
+          - titulo: "Fase_2__L1_Nível_II_2026"
+            link: "https://drive.google.com/file/d/1yanmuBuHSKZJPhlN1eRlRZfVAL9WphbR/preview"
+            solucoes:
+            - gab-titulo: "Fase_2__L1_Nível_II_2026_Solução"
+              gab-link: "https://drive.google.com/file/d/1RXYTUPbABgqowR86ylTqvK4xQVkDZSAI/preview"
+      - nivel: "Nivel I"
+        documentos:
+          - titulo: "Fase_2__L1_Nível_I_2026"
+            link: "https://drive.google.com/file/d/14raMP_9c0TiZq38JWPs3qQ1QF2LVTB5E/preview"
+            solucoes:
+            - gab-titulo: "Fase_2__L1_Nível_I_2026__Solução"
+              gab-link: "https://drive.google.com/file/d/1THD3OcTjcVYXrCPHz4CT3o_K4tMKTxqO/preview"
     - fase: "Primeira Fase"
       niveis:
       - nivel: "Nivel III"
