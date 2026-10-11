@@ -52,6 +52,29 @@
     documentos:
   prova:
     fases:
+    - fase: "Segunda Fase"
+      niveis:
+      - nivel: "Nivel III"
+        documentos:
+          - titulo: "PROVA OMOC - Nível III (2026)"
+            link: "https://drive.google.com/file/d/1WIZ1w9VkflOCu4AWv3OlkN0qii32JhtN/preview"
+            solucoes:
+            - gab-titulo: "PROVA OMOC - Nível III (2026) - Solução"
+              gab-link: "https://drive.google.com/file/d/1euUFjW7mn0EbIP7vcnICTvDvYA-1vpaN/preview"
+      - nivel: "Nivel II"
+        documentos:
+          - titulo: "PROVA OMOC - Nível II (2026)"
+            link: "https://drive.google.com/file/d/1bp-mkol9yFEofBuZWuOVxalE-aG1sHTV/preview"
+            solucoes:
+            - gab-titulo: "PROVA OMOC - Nível II (2026) - Solução"
+              gab-link: "https://drive.google.com/file/d/1cgqdNryjlh0rL12cgYq0f7CaOdC5xmq0/preview"
+      - nivel: "Nivel I"
+        documentos:
+          - titulo: "PROVA OMOC - Nível I (2026)"
+            link: "https://drive.google.com/file/d/18odE6eTATTGRYMF4vGMGfivWYh3CU5Bh/preview"
+            solucoes:
+            - gab-titulo: "PROVA OMOC - Nível I (2026) - Solução"
+              gab-link: "https://drive.google.com/file/d/1QBYFpAIW3icIEojqyLa1jnbkXfJTW-MF/preview"
     - fase: "Primeira Fase"
       niveis:
       - nivel: "Nivel III"
